@@ -1,0 +1,28 @@
+{
+  "name": "mutantchronicles",
+  "title": "Mutant Chronicles",
+  "description": "Many details here.",
+  "version": "1.0.0",
+  "templateVersion": 1,
+  "author": "Szorstky",
+  "scripts": [],
+  "esmodules": [],
+  "styles": []
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://github.com/szorstky/mutant-chronicles",
+  "manifest": "https://github.com/szorstky/mutant-chronicles/system.json",
+  "download": "https://github.com/szorstky/mutant-chronicles/archive.zip"
+}
