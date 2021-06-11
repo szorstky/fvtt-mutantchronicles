@@ -23,6 +23,6 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/szorstky/mutant-chronicles",
-  "manifest": "https://github.com/szorstky/mutant-chronicles/system.json",
-  "download": "https://github.com/szorstky/mutant-chronicles/archive.zip"
+  "manifest": "https://github.com/szorstky/mutantchronicles/system.json",
+  "download": "https://github.com/szorstky/mutantchronicles/archive.zip"
 }
