@@ -28,7 +28,7 @@
 	  }
 	},
 	"Item": {
-	  "types": ["gear", "weapon", "spell"],
+	  "types": ["gear", "weapon"],
 	  "templates": {
 			"item_base" : {		
 				"name": "",			
