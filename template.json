@@ -20,7 +20,7 @@
 		"templates": ["basic"],
 		"range": "",
 		"damage": {
-			"symetryDices": 1,
+			"symetry_dices": 1,
 			"value": 1			
 		},
 		"mode": "-",
