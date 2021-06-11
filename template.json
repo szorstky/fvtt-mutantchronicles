@@ -13,7 +13,7 @@
 	  },	  
 	  "gear": {
 		"templates": ["basic"],
-		"load": 2,
+		"loads": 0,
 		"maintenance": ""
 	  },	  
 	  "weapon": {

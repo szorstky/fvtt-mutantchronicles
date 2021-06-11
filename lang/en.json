@@ -11,7 +11,7 @@
 		    "encumbrance": "Encumbrance",
 		    "reliability" : "Reliability",
 			"restriction": "Restriction",
-            "load": "Load",
+            "loads": "Loads",
             "maintenance": "Maintenance"
         },
         "weapon": {
