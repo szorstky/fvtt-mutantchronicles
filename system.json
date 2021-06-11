@@ -22,7 +22,7 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
-  "url": "https://github.com/szorstky/mutant-chronicles",
-  "manifest": "https://github.com/szorstky/mutantchronicles/system.json",
+  "url": "https://github.com/szorstky/mutantchronicles",
+  "manifest": "https://raw.githubusercontent.com/szorstky/mutantchronicles/main/system.json",
   "download": "https://github.com/szorstky/mutantchronicles/archive.zip"
 }
