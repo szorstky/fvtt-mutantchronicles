@@ -3,5 +3,50 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
-    <p>Hello</p>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "mutantchronicles.weapon.range"}}</th>
+                <th colspan="2">{{localize "mutantchronicles.weapon.damage"}}</th>
+                <th>{{localize "mutantchronicles.weapon.mode"}}</th> 
+                <th>{{localize "mutantchronicles.weapon.encumbrance"}}</th>               
+                <th>{{localize "mutantchronicles.weapon.size"}}</th>                
+                <th>{{localize "mutantchronicles.weapon.reliability"}}</th>
+                <th>{{localize "mutantchronicles.weapon.reloads"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.range">
+                        {{#select data.range}}
+                        {{#each config.rangeTypes as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name="data.damage.value" type="text" value="{{data.damage.value}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage.symetry_dices" type="text" value="{{data.damage.symetry_dices}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.mode" type="text" value="{{data.damage.mode}}" />
+                </td>
+                <td>
+                    <input name="data.encumbrance" type="text" value="{{data.encumbrance}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.size" type="text" value="{{data.damage.size}}" />
+                </td>
+                <td>
+                    <input name="data.reliability" type="text" value="{{data.reliability}}" />
+                </td>
+                <td>
+                    <input name="data.reloads type="text" value="{{data.reloads}}" />
+                </td>
+            </tr>
+        </table>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
 </form>

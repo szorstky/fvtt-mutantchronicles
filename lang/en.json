@@ -1,0 +1,32 @@
+{
+    "mutantchronicles": {
+        "range": {
+            "reach": "Reach",
+            "close": "Close",
+            "medium": "Medium",
+            "long": "Long"    
+        },
+        "item": {
+            "cost": "Cost",
+		    "encumbrance": "Encumbrance",
+		    "reliability" : "Reliability",
+			"restriction": "Restriction",
+            "load": "Load",
+            "maintenance": "Maintenance"
+        },
+        "weapon": {
+            "cost": "Cost",
+		    "encumbrance": "Encumbrance",
+		    "reliability" : "Reliability",
+			"restriction": "Restriction",
+            "load": "Load",
+            "maintenance": "Maintenance",
+            "range": "Range",
+            "damage": "Damage",
+            "mode": "Mode",
+		    "size": "Size",
+		    "reloads": "Reloads",
+		    "qualities": "Qualities"
+        }
+    }
+}

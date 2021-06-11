@@ -1,27 +1,26 @@
 {
 	"Actor": {},
 	"Item": {
-	  "types": ["gear", "weapon"],
+	  "types": ["item", "weapon"],
 	  "templates": {
-			"basic" : {		
-				"name": "",			
+			"basic" : {							
 				"cost": 0,
 		        "encumbrance": 0,
 		        "reliability" : "",
-				"restriction": ""
+				"restriction": 0
 			}
 	  },	  
-	  "gear": {
+	  "item": {
 		"templates": ["basic"],
-		"load": "-",
+		"load": 0,
 		"maintenance": ""
 	  },	  
 	  "weapon": {
 		"templates": ["basic"],
-		"range": "M",
+		"range": "",
 		"damage": {
 			"symetry_dices": 1,
-			"mod": 1			
+			"value": 1			
 		},
 		"mode": "-",
 		"size": "-",
