@@ -3,6 +3,7 @@
   "title": "Mutant Chronicles",
   "description": "Many details here.",
   "version": "1.0.0",
+  "compatibleCoreVersion": "0.8.6",
   "templateVersion": 1,
   "author": "Szorstky",
   "scripts": [],
