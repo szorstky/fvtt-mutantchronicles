@@ -1,4 +1,4 @@
-import MutantChroniclesItemSheet from "./module/sheets/mutant-chronicles-item-sheet";
+import MutantChroniclesItemSheet from "./module/sheets/mutant-chronicles-item-sheet.js";
 
 Hooks.once("init", function(){
     console.log("mutantchronicles | Initializing Muntant Chronicles");
