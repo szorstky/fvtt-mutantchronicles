@@ -30,7 +30,7 @@
 	"Item": {
 	  "types": ["gear", "weapon"],
 	  "templates": {
-			"item_base" : {		
+			"basic" : {		
 				"name": "",			
 				"cost": 0,
 		        "encumbrance": 0,
@@ -39,12 +39,12 @@
 			}
 	  },	  
 	  "gear": {
-		"templates": ["item_base"],
+		"templates": ["basic"],
 		"load": "-",
 		"maintenance": ""
 	  },	  
 	  "weapon": {
-		"templates": ["item_base"],
+		"templates": ["basic"],
 		"range": "M",
 		"damage": {
 			"symetry_dices": 1,
