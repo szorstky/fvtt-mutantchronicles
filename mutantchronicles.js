@@ -4,7 +4,7 @@ import MutantChroniclesItemSheet from "./module/sheets/mutant-chronicles-item-sh
 Hooks.once("init", function(){
     console.log("mutantchronicles | Initializing Muntant Chronicles");
 
-    webkitConvertPointFromPageToNode.mutantchronicles = mutantchronicles;
+    CONFIG.mutantchronicles = mutantchronicles;
 
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("mutantchronicles", MutantChroniclesItemSheet, { makeDefault: true });
