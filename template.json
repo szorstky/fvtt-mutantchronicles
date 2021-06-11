@@ -1,6 +1,6 @@
 {
 	"Actor": {
-	  "types": ["hero", "pawn", "villain"],
+	  "types": ["player", "npc"],
 	  "templates": {
 		"background": {
 		  "biography": "",
@@ -25,33 +25,35 @@
 		  "value": 5,
 		  "max": 10
 		}
-	  },
-	  "pawn": {
-		"templates": ["resources"]
-	  },
-	  "villain": {
-		"templates": ["background", "resources"],
-		"wickedness": {
-		  "value": 5,
-		  "max": 100
-		}
 	  }
 	},
 	"Item": {
-	  "types": ["weapon", "spell"],
+	  "types": ["gear", "weapon", "spell"],
 	  "templates": {
-		"rarity": {
-		  "rarity": "Common",
-		  "price": 20
-		}
-	  },
+			"item_base" : {		
+				"name": "",			
+				"cost": 0,
+		        "encumbrance": 0,
+		        "reliability" : "",
+				"restriction": ""
+			}
+	  },	  
+	  "gear": {
+		"templates": ["item_base"],
+		"load": "-",
+		"maintenance": ""
+	  },	  
 	  "weapon": {
-		"templates": ["rarity"],
-		"damage": 5
-	  },
-	  "spell": {
-		"templates": ["rarity"],
-		"cost": 2
-	  }
+		"templates": ["item_base"],
+		"range": "M",
+		"damage": {
+			"symetry_dices": 1,
+			"mod": 1			
+		},
+		"mode": "-",
+		"size": "-",
+		"reloads": 0,
+		"qualities": ""
+	  }	 
 	}
 }
