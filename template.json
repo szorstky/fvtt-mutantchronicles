@@ -1,7 +1,7 @@
 {
 	"Actor": {},
 	"Item": {
-	  "types": ["item", "weapon"],
+	  "types": ["gear", "weapon"],
 	  "templates": {
 			"basic" : {							
 				"cost": 0,
@@ -11,7 +11,7 @@
 				"description": ""
 			}
 	  },	  
-	  "item": {
+	  "gear": {
 		"templates": ["basic"],
 		"load": 2,
 		"maintenance": ""
@@ -20,7 +20,7 @@
 		"templates": ["basic"],
 		"range": "",
 		"damage": {
-			"symetry_dices": 1,
+			"symetryDices": 1,
 			"value": 1			
 		},
 		"mode": "-",
