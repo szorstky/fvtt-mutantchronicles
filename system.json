@@ -7,8 +7,12 @@
   "templateVersion": 1,
   "author": "Szorstky",
   "scripts": [],
-  "esmodules": [],
-  "styles": [],
+  "esmodules": [
+    "mutantchronicles.js"
+  ],  
+  "styles": [
+    "mutantchronicles.css"
+  ],
   "packs": [],
   "languages": [
     {
