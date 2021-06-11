@@ -1,6 +1,6 @@
 {
 	"Actor": {
-	  "types": ["player", "npc"],
+	  "types": ["player"],
 	  "templates": {
 		"background": {
 		  "biography": "",
@@ -19,7 +19,7 @@
 		  }
 		}
 	  },
-	  "hero": {
+	  "player": {
 		"templates": ["background", "resources"],
 		"goodness": {
 		  "value": 5,
