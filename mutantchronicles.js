@@ -11,8 +11,8 @@ Hooks.once("init", function(){
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("mutantchronicles", MutantChroniclesItemSheet, { makeDefault: true });
 
-    Items.unregisterSheet("core", ActorSheet);
-    Items.registerSheet("mutantchronicles", MutantChroniclesActorSheet, { makeDefault: true });
+    Actors.unregisterSheet("core", ActorSheet);
+    Actors.registerSheet("mutantchronicles", MutantChroniclesActorSheet, { makeDefault: true });
 
     preloadHandlebarsTemplates();
 });
