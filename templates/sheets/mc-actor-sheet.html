@@ -1,0 +1,15 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <div class="sidebar">
+        {{ #if (eq actor.type "player")}}
+        <h1 class="faction">
+            <div data-edit="data.faction" contenteditable="">
+                {{data.faction}}
+            </div>
+        </h1>
+        {{/if}}
+        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+        <div class="stats">
+           {{> "systems/mutantchronicles/templates/partials/character-stats-block.hbs"}} 
+        </div>
+    </div>
+</form>

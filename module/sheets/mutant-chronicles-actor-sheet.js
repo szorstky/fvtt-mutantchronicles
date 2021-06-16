@@ -1,17 +1,14 @@
-export default class MutantChroniclesItemSheet extends ItemSheet{
+export default class MutantChroniclesActorSheet extends ActorSheet{
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             width: 520,
             height: 340,
-            classess: ["mutantchronicles", "sheet", "item"]
+            classess: ["mutantchronicles", "sheet", "mc-actor"],
+            template: "systems/mutantchronicles/templates/sheets/mc-actor-sheet.html"
         });
     }
-
-    get template(){
-        return `systems/mutantchronicles/templates/sheets/mc-${this.item.data.type}-sheet.html`;
-    }
-
+    
     getData(options) {
         const data = super.getData(options);
         const itemData = data.data;
