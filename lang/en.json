@@ -1,6 +1,10 @@
 {
     "mutantchronicles": {
 
+        "player": {
+            "faction": "Faction"
+        },
+
         "attribute": {
             "agility": "Agility",
             "awerness": "Awerness",
