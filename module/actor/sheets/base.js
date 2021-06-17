@@ -11,17 +11,17 @@ export default class MutantChroniclesActorSheet extends ActorSheet{
     }
     /** @override */
     get template(){
-        return `systems/mutantchronicles/templates/actors/${this.item.data.type}-sheet.html`;
+        return `systems/mutantchronicles/templates/actors/${this.actor.data.type}-sheet.html`;
     }
 
     /** @override */
     getData(options) {
         const data = super.getData(options);
-        const itemData = data.data;
+        const actorData = data.data;
 
         data.config = CONFIG.mutantchronicles;
-        data.item = itemData;
-        data.data = itemData.data;
+        data.actor = actorData;
+        data.data = actorData.data;
         return data;
     }
 }

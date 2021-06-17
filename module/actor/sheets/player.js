@@ -12,11 +12,11 @@ export default class MutantChroniclesPlayerSheet extends MutantChroniclesActorSh
     
     getData(options) {
         const data = super.getData(options);
-        const itemData = data.data;
+        const actorData = data.data;
 
         data.config = CONFIG.mutantchronicles;
-        data.item = itemData;
-        data.data = itemData.data;
+        data.actor = actorData;
+        data.data = actorData.data;
         return data;
     }
 }
