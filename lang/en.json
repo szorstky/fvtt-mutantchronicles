@@ -4,6 +4,7 @@
         "chronicle_points": "Chronicle Points",
         "ranged": "Ranged",
         "melee": "Melee",
+        "dread": "Dread",
 
         "player": {
             "faction": "Faction"

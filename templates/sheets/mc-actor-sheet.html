@@ -12,6 +12,7 @@
                         <td>{{ localize 'mutantchronicles.chronicle_points' }}</td>
                         <td>{{ localize 'mutantchronicles.ranged' }}</td>
                         <td>{{ localize 'mutantchronicles.melee' }}</td>
+                        <td>{{ localize 'mutantchronicles.dread' }}</td>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,9 +27,14 @@
                                 {{data.damage_bonus_ranged}}
                             </div>
                         </td>
-                        <td>
+                         <td>
                             <div data-edit="data.damage_bonus_melee" contenteditable="">
                                 {{data.damage_bonus_melee}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.dread.value" contenteditable="">
+                                {{data.dread.value}}
                             </div>
                         </td>
                     </tr>
