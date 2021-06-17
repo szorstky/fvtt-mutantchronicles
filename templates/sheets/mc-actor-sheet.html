@@ -4,8 +4,36 @@
         <div>
             <label>{{ localize 'Name' }}</label>
             <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-            <label>{{localize "mutantchronicles.weapon.mode"}}</label>
+            <label>{{localize "mutantchronicles.player.faction"}}</label>
             <input name="faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
+            <table>
+                <thead>
+                    <tr>
+                        <td>{{ localize 'mutantchronicles.chronicle_points' }}</td>
+                        <td>{{ localize 'mutantchronicles.ranged' }}</td>
+                        <td>{{ localize 'mutantchronicles.melee' }}</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-edit="data.chronicle_points" contenteditable="">
+                                {{data.chronicle_points}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.damage_bonus_ranged" contenteditable="">
+                                {{data.damage_bonus_ranged}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.damage_bonus_melee" contenteditable="">
+                                {{data.damage_bonus_melee}}
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>        
     </header>
     <div class="sidebar">

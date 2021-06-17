@@ -61,7 +61,7 @@
 				}
 			}		
 		},
-		"hero":{
+		"player":{
 			"templates": ["mc_character", "common_wounds"],
 			"faction": "",
 			"experience": "",

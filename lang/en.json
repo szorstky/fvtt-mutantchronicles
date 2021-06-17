@@ -1,6 +1,10 @@
 {
     "mutantchronicles": {
 
+        "chronicle_points": "Chronicle Points",
+        "ranged": "Ranged",
+        "melee": "Melee",
+
         "player": {
             "faction": "Faction"
         },
