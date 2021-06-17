@@ -7,6 +7,12 @@
         "dread": "Dread",
         "attributes": "Attributes",
         "skills": "Skills",
+        "skill": "Skill",
+        "signature": "Signature",
+        "expertise": "Expertise",
+        "focus": "Focus",
+
+        "acrobatics": "Acrobatics",
 
         "player": {
             "faction": "Faction"
