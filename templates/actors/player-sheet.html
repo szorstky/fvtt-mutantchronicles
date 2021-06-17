@@ -5,7 +5,7 @@
             <label>{{ localize 'Name' }}</label>
             <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
             <label>{{localize "mutantchronicles.player.faction"}}</label>
-            <input name="faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
+            <input name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
             <table>
                 <thead>
                     <tr>
@@ -44,7 +44,7 @@
     <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
 
     <label>{{localize "mutantchronicles.attribute.agility"}}</label>
-    <input name="agility" type="text" value="{{data.attribute.agility}}"/>
+    <input name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
     <table>
         <thead>
             <tr>
