@@ -10,9 +10,8 @@ export default class MutantChroniclesPlayerSheet extends MutantChroniclesActorSh
         });
     }
     
-    getData(options) {
-        const data = super.getData(options);
-        
+    getData() {
+        const data = super.getData();        
         return data;
     }
 }

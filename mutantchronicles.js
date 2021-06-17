@@ -1,6 +1,6 @@
 import { mutantchronicles } from "./module/config.js";
 import { preloadHandlebarsTemplates } from "./module/templates.js";
-import MutantChroniclesItemSheet from "./module/item/sheets/sheet.js";
+import MutantChroniclesItemSheet from "./module/item/sheets/item.js";
 import MutantChroniclesPlayerSheet from "./module/actor/sheets/player.js";
 
 Hooks.once("init", function(){
