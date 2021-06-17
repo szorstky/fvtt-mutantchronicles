@@ -16,7 +16,6 @@ export default class MutantChroniclesActorSheet extends ActorSheet{
 
     /** @override */
     getData(options) {
-
         // Basic data
         let isOwner = this.actor.isOwner;
         const data = {
@@ -25,7 +24,7 @@ export default class MutantChroniclesActorSheet extends ActorSheet{
             options: this.options,
             editable: this.isEditable,
             cssClass: isOwner ? "editable" : "locked",
-            isPlayer: this.actor.type === "character",
+            isPlayer: this.actor.type === "player",
             isNPC: this.actor.type === "npc",
             isNemesis: this.actor.type === 'nemesis',
             isEnemy: this.actor.type === 'enemy',
