@@ -1,7 +1,7 @@
 import { mutantchronicles } from "./module/config.js";
 import { preloadHandlebarsTemplates } from "./module/templates.js";
-import MutantChroniclesItemSheet from "./module/sheets/mutant-chronicles-item-sheet.js";
-import MutantChroniclesActorSheet from "./module/sheets/mutant-chronicles-actor-sheet.js";
+import MutantChroniclesItemSheet from "./module/sheets/mc-item-sheet.js";
+import MutantChroniclesPlayerSheet from "./module/actor/sheets/player.js";
 
 Hooks.once("init", function(){
     console.log("mutantchronicles | Initializing Muntant Chronicles");
@@ -12,7 +12,7 @@ Hooks.once("init", function(){
     Items.registerSheet("mutantchronicles", MutantChroniclesItemSheet, { makeDefault: true });
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("mutantchronicles", MutantChroniclesActorSheet, { makeDefault: true });
+    Actors.registerSheet("mutantchronicles", MutantChroniclesPlayerSheet, { makeDefault: true });
 
     preloadHandlebarsTemplates();
 

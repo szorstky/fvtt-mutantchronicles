@@ -1,13 +1,13 @@
-.sheet form {
+.mutantchronicles.sheet.item .sheet form {
   display: flex;
   flex-direction: column;
 }
-.sheet .sheet-content {
+.mutantchronicles.sheet.item .sheet .sheet-content {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.sheet .sheet-content .editor {
+.mutantchronicles.sheet.item .sheet .sheet-content .editor {
   height: 100%;
 }
 .mutantchronicles.sheet.mc-actor .sidebar {

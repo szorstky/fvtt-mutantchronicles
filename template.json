@@ -183,7 +183,7 @@
 		}
 	},
 	"Item": {
-	  "types": ["gear", "weapon"],
+	  "types": ["item", "weapon"],
 	  "templates": {
 			"basic" : {							
 				"cost": 0,
@@ -193,7 +193,7 @@
 				"description": ""
 			}
 	  },	  
-	  "gear": {
+	  "item": {
 		"templates": ["basic"],
 		"loads": 0,
 		"maintenance": ""
