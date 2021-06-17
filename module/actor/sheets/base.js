@@ -16,12 +16,12 @@ export default class MutantChroniclesActorSheet extends ActorSheet{
 
     /** @override */
     getData(options) {
-        const data = super.getData(options);
-        const actorData = data.data;
 
-        data.config = CONFIG.mutantchronicles;
+        const actorData = this.actor.data.toObject(false);
         data.actor = actorData;
-        data.data = actorData.data;
+        data.data = actorData.data;        
+        data.config = CONFIG.mutantchronicles;
+        
         return data;
     }
 }
