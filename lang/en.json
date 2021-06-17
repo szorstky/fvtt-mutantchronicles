@@ -1,5 +1,17 @@
 {
     "mutantchronicles": {
+
+        "attribute": {
+            "agility": "Agility",
+            "awerness": "Awerness",
+            "coordination": "Coordination",
+            "intelligence": "Intelligence",
+            "mental": "Mental",
+            "personality": "Personality",
+            "physique": "Physique",
+            "strength": "Strength"
+        },
+
         "range": {
             "reach": "Reach",
             "close": "Close",
