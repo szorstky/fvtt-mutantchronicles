@@ -40,36 +40,36 @@
                     </tr>
                 </tbody>
             </table>
-            <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
-
-            <label>{{localize "mutantchronicles.attribute.agility"}}</label>
-            <input name="agility" type="text" value="{{data.attribute.agility}}"/>
-            <table>
-                <thead>
-                    <tr>
-                        <td>{{ localize 'mutantchronicles.skill' }}</td>
-                        <td>{{ localize 'mutantchronicles.signature' }}</td>
-                        <td>{{ localize 'mutantchronicles.focus' }}</td>
-                    </tr>                    
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>{{ localize 'mutantchronicles.acrobatics' }}</td>
-                        <td>
-                            <div data-edit="data.skill.acrobatics.expertise" contenteditable="">
-                                {{data.skill.acrobatics.expertise}}
-                            </div>
-                        </td>
-                        <td>
-                            <div data-edit="data.skill.acrobatics.focus" contenteditable="">
-                                {{data.skill.acrobatics.focus}}
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>        
     </header>
+    <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
+
+    <label>{{localize "mutantchronicles.attribute.agility"}}</label>
+    <input name="agility" type="text" value="{{data.attribute.agility}}"/>
+    <table>
+        <thead>
+            <tr>
+                <td>{{ localize 'mutantchronicles.skill' }}</td>
+                <td>{{ localize 'mutantchronicles.signature' }}</td>
+                <td>{{ localize 'mutantchronicles.focus' }}</td>
+            </tr>                    
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ localize 'mutantchronicles.acrobatics' }}</td>
+                <td>
+                    <div data-edit="data.skill.acrobatics.expertise" contenteditable="">
+                        {{data.skill.acrobatics.expertise}}
+                    </div>
+                </td>
+                <td>
+                    <div data-edit="data.skill.acrobatics.focus" contenteditable="">
+                        {{data.skill.acrobatics.focus}}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>        
     <div class="sidebar">
         {{#if (eq actor.type "player")}}
         <h1 class="faction">
