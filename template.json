@@ -3,14 +3,16 @@
 		"types": ["player", "npc", "nemesis", "enemy"],
 		"templates": {
 			"mc_character": {
-				"agility": 5,
-				"awerness": 5,
-				"coordination": 5,
-				"intelligence": 5,
-				"mental": 5,
-				"personality": 5,
-				"physique": 5,
-				"strength": 5				
+				"attribute": {
+					"agility": 5,
+					"awerness": 5,
+					"coordination": 5,
+					"intelligence": 5,
+					"mental": 5,
+					"personality": 5,
+					"physique": 5,
+					"strength": 5
+			}				
 			},
 			"common_wounds": {
             	"wounds": {
@@ -74,10 +76,12 @@
 				"value": 0, 
 				"max": 15
 			},
-			"damage_bonus_ranged": 0,
-			"damage_bonus_melee": 0,
+			"damage_bonus": { 
+				"ranged": 0,
+			    "melee": 0
+			},
 			"status": "",
-			"skills": { 
+			"skill": { 
 				"acrobatics": { 
 					"attr": "agility", "signature": false, "expertise": 0, "focus": 0 
 				},

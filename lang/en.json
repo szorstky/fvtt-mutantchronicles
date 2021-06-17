@@ -5,6 +5,8 @@
         "ranged": "Ranged",
         "melee": "Melee",
         "dread": "Dread",
+        "attributes": "Attributes",
+        "skills": "Skills",
 
         "player": {
             "faction": "Faction"
