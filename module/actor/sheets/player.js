@@ -1,4 +1,4 @@
-import MutantChroniclesActorSheet from "./base";
+import MutantChroniclesActorSheet from "./base.js";
 
 export default class MutantChroniclesPlayerSheet extends MutantChroniclesActorSheet{
 
