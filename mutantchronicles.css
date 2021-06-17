@@ -10,3 +10,7 @@
 .sheet .sheet-content .editor {
   height: 100%;
 }
+.mutantchronicles.sheet.mc-actor .sidebar {
+  background-color: blue;
+  color: red;
+}
