@@ -6,7 +6,7 @@ export default class MutantChroniclesPlayerSheet extends MutantChroniclesActorSh
         return mergeObject(super.defaultOptions, {
             width: 720,
             height: 440,
-            classess: ["mutantchronicles", "sheet", "actor", "player"]            
+            classes: ["mutantchronicles", "sheet", "actor", "player"]            
         });
     }
     

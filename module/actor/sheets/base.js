@@ -6,7 +6,7 @@ export default class MutantChroniclesActorSheet extends ActorSheet{
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {            
-            classess: ["mutantchronicles", "sheet", "actor"]
+            classes: ["mutantchronicles", "sheet", "actor"]
         });
     }
     /** @override */
