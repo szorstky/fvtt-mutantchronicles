@@ -41,10 +41,19 @@
                 </tbody>
             </table>
     </header>
-    <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
-
-    <label>{{localize "mutantchronicles.attribute.agility"}}</label>
-    <input name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
+    <div class="sheet-content">
+        <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
+        <ul class="stats-list">
+            <li class="stats-list-item"> 
+                <div class="stats-attribute">
+                    <label class="stats-attribute__title">
+                        {{localize "mutantchronicles.attribute.agility"}}
+                    </h5>
+                    <input class="stats-attribute__value" name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
+                </div>
+            </li>
+        </ul>
+    </div>
     <table>
         <thead>
             <tr>

@@ -10,7 +10,26 @@
 .mutantchronicles.sheet.item .sheet .sheet-content .editor {
   height: 100%;
 }
-.mutantchronicles.sheet.mc-actor .sidebar {
-  background-color: blue;
-  color: red;
+.mutantchronicles.sheet.player .sheet form {
+  display: flex;
+  flex-direction: column;
+}
+.mutantchronicles.sheet.player .sheet .sheet-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mutantchronicles.sheet.player .sheet .sheet-content .editor {
+  height: 100%;
+}
+.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute {
+  display: flex;
+  flex-direction: row;
+}
+.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__title {
+  background-color: black;
+  color: white;
+}
+.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__value {
+  flex-shrink: 1;
 }
