@@ -1,33 +1,31 @@
-.mutantchronicles.sheet.player {
-     .sheet {
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-        .sheet-content {
+.mutantchronicles.sheet.actor.player {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .sheet-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .editor {
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            .editor {
-                height: 100%;
-            }
-            .stats-list {
-                background-color: yellow;
-                .stats-list-item {
-                    color: blue;
-                    .stats-attribute {
-                        display: flex;
-                        flex-direction: row;
-                        .stats-attribute__title {
-                            background-color: black; 
-                            color: white;
-                        }
-                        .stats-attribute__value {
-                            flex-shrink: 1;
-                        }
+        }
+        .stats-list {
+            background-color: yellow;
+            .stats-list-item {
+                color: blue;
+                .stats-attribute {
+                    display: flex;
+                    flex-direction: row;
+                    .stats-attribute__title {
+                        background-color: black; 
+                        color: white;
+                    }
+                    .stats-attribute__value {
+                        flex-shrink: 1;
                     }
                 }
             }
         }
-    }
+    }    
 }

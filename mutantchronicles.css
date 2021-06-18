@@ -10,32 +10,32 @@
 .mutantchronicles.sheet.item .sheet .sheet-content .editor {
   height: 100%;
 }
-.mutantchronicles.sheet.player .sheet form {
+.mutantchronicles.sheet.actor.player form {
   display: flex;
   flex-direction: column;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content {
+.mutantchronicles.sheet.actor.player .sheet-content {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .editor {
+.mutantchronicles.sheet.actor.player .sheet-content .editor {
   height: 100%;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .stats-list {
+.mutantchronicles.sheet.actor.player .sheet-content .stats-list {
   background-color: yellow;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item {
+.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item {
   color: blue;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute {
+.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute {
   display: flex;
   flex-direction: row;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__title {
+.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__title {
   background-color: black;
   color: white;
 }
-.mutantchronicles.sheet.player .sheet .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__value {
+.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__value {
   flex-shrink: 1;
 }
