@@ -46,7 +46,7 @@
         <ul class="stats-list">
             <li class="stats-list-item"> 
                 <div class="stats-attribute">
-                    <div class="stats-attribute__title">
+                    <p class="stats-attribute__title">
                         {{localize "mutantchronicles.attribute.agility"}}
                     </div>
                     <input class="stats-attribute__value" name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
@@ -54,7 +54,7 @@
             </li>
         </ul>
     </div>
-    <table>
+    <!-- <table>
         <thead>
             <tr>
                 <td>{{ localize 'mutantchronicles.skill' }}</td>
@@ -77,7 +77,7 @@
                 </td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
 </div>        
     <div class="sidebar">
         {{#if (eq actor.type "player")}}
