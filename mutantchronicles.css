@@ -28,7 +28,7 @@
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item {
   background-color: black;
-  padding: 0.1rem 0.5rem;
+  padding: 0.2rem 0.2rem 0.2rem 1rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute {
   display: flex;
@@ -41,6 +41,7 @@
   margin: auto;
   text-align: left;
   text-transform: uppercase;
+  width: 100%;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__value {
   background-color: white;
