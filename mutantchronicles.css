@@ -23,14 +23,14 @@
   height: 100%;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list {
-  background-color: yellow;
+  list-style: none;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item {
   color: blue;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute {
   display: flex;
-  flex-direction: row;
+  flex-direction: ;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__title {
   background-color: black;
