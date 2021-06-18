@@ -24,11 +24,14 @@
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list {
   list-style: none;
+  padding: 0;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item {
-  color: blue;
+  padding: 0.1rem 0.5rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute {
+  align-content: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
 }
@@ -38,5 +41,5 @@
   width: 100%;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute .stats-attribute__value {
-  flex-shrink: 1;
+  width: 40px;
 }
