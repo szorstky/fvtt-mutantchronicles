@@ -47,17 +47,43 @@
             <p class="attribute__title">{{localize "mutantchronicles.attribute.agility"}}</p>
             <input class="attribute__value" name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
         </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</td>
+                    <th>Signature</td>
+                    <th>Expertise</td>
+                    <th>Focus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{localize "mutantchronicles.skill.acrobatics"}}</td>
+                    <td><input name="data.skill.acrobatics.signature" type="checkbox" value="{{data.skill.acrobatics.signature}}"/></td>
+                    <td><input name="data.skill.acrobatics.expertise" type="checkbox" value="{{data.skill.acrobatics.expertise}}"/></td>
+                    <td><input name="data.skill.acrobatics.focus" type="checkbox" value="{{data.skill.acrobatics.focus}}"/></td>
+                </tr>
+            </tbody>
+        </table>
+
         <ul class="skill-list">
             <li class="skill-list-item"> 
                <div class="flex-row skill__container">
                     <p class="skill__title">
+                        <label>Skill</label>
                         {{localize "mutantchronicles.skill.acrobatics"}}
                     </p>
-                    <div class="skill_value">
+                    <div class="skill__value">
+                        <label>Signature</label>
                         <input name="data.skill.acrobatics.signature" type="checkbox" value="{{data.skill.acrobatics.signature}}"/>
                     </div>
-                    <input class="skill__value" name="data.skill.acrobatics.expertise" type="text" value="{{data.skill.acrobatics.expertise}}"/>
-                    <input class="skill__value" name="data.skill.acrobatics.focus" type="text" value="{{data.skill.acrobatics.focus}}"/>
+                    <div class="skill_value">
+                        <input class="skill__value" name="data.skill.acrobatics.expertise" type="text" value="{{data.skill.acrobatics.expertise}}"/>
+                    </div>
+                    <div class="skill_value">
+                        <input class="skill__value" name="data.skill.acrobatics.focus" type="text" value="{{data.skill.acrobatics.focus}}"/>
+                    </div>                    
                 </div>
             </li>
         </ul>
