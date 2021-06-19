@@ -37,17 +37,23 @@
         
         .skills__table {
             margin-top: 0;
-            .skill__title {
-                text-align: left;
+
+            td {
+                padding-left: .4rem;
+                padding-right: .4rem;
             }
+
+            .skill__title {
+                text-align: left;              
+            }
+            
             .skill__value {
                 text-align: center;
+                padding: 0 .4rem;
                 width: 80px;
                     input {
                         &[type="text"] {
-                            background-color: blue;
-                            width: 100%;
-                            margin: 0 .2rem;
+                            width: 100%;                            
                     }
                 }
             }
