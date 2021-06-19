@@ -50,8 +50,12 @@
         <ul class="skill-list">
             <li class="skill-list-item"> 
                <div class="flex-row skill__container">
-                    <p class="skill__title">{{localize "mutantchronicles.skill.acrobatics"}}</p>
-                    <input class="skill__value" name="data.skill.acrobatics.signature" type="checkbox" value="{{data.skill.acrobatics.signature}}"/>
+                    <p class="skill__title">
+                        {{localize "mutantchronicles.skill.acrobatics"}}
+                    </p>
+                    <div class="skill_value">
+                        <input name="data.skill.acrobatics.signature" type="checkbox" value="{{data.skill.acrobatics.signature}}"/>
+                    </div>
                     <input class="skill__value" name="data.skill.acrobatics.expertise" type="text" value="{{data.skill.acrobatics.expertise}}"/>
                     <input class="skill__value" name="data.skill.acrobatics.focus" type="text" value="{{data.skill.acrobatics.focus}}"/>
                 </div>
