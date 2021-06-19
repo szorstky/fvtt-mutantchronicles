@@ -27,9 +27,12 @@
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
+  background-color: black;
+  padding: 0.2rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__title {
   color: white;
+  text-transform: uppercase;
   margin: auto;
   width: 100%;
 }
