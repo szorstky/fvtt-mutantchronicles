@@ -10,42 +10,48 @@
         .editor {
             height: 100%;
         }
-        .stats-list {
+
+        .attribute__container {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+
+            // ATTRIBUTE ITEM                   
+            .attribute__title {                                                
+                color: white;
+                margin: auto;
+            
+                width: 100%;
+            }
+            .attribute__value {                            
+                background-color: white;
+                text-align: center;
+                width: 80px;                        
+            }
+        }
+
+        .skill-list {
             list-style: none;
             padding: 0;
-            .stats-list-item {
-                background-color: black;
-                padding: .2rem .2rem .2rem 1rem;
-
-                .stat-container {
+            .skill-list-item {
+               .skill__container {
                     display: flex;
                     flex-direction: row;
                     align-content: center;                    
                     justify-content: space-between;
                     text-transform: uppercase;
-                }
-                // ATTRIBUTE ITEM                   
-                .stats-attribute__title {                                                
-                    color: white;
-                    margin: auto;
-                   
-                    width: 100%;
-                }
-                .stats-attribute__value {                            
-                    background-color: white;
-                    text-align: center;
-                    width: 80px;                        
-                }
-                // SKILL ITEM
-                .stats-attribute__title {                                                
-                    margin: auto;
-                    width: 100%;
-                }
-                .stats-attribute__value {                            
-                    background-color: white;
-                    text-align: center;
-                    width: 40px;                        
-                }               
+                    // SKILL ITEM
+                    .skill__title {                                                
+                        margin: auto;
+                        width: 100%;
+                    }
+                    .skill__value {                            
+                        background-color: white;
+                        text-align: center;
+                        width: 40px;                        
+                    }      
+                }         
             }
         }
     }    
