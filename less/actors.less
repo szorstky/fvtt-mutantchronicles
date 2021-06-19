@@ -11,14 +11,16 @@
             height: 100%;
         }
 
-        .attribute__container {
+        .flex-row {
             display: flex;
             flex-direction: row;
             align-content: center;
-            justify-content: space-between;
-            background-color: black;
-            padding: .2rem;
+            justify-content: space-between;            
+        }
 
+        .attribute__container {
+            background-color: black;
+            padding: .2rem .2rem .2rem .4rem;
             // ATTRIBUTE ITEM                   
             .attribute__title {                                                
                 color: white;
@@ -38,10 +40,6 @@
             padding: 0;
             .skill-list-item {
                .skill__container {
-                    display: flex;
-                    flex-direction: row;
-                    align-content: center;                    
-                    justify-content: space-between;
                     text-transform: uppercase;
                     // SKILL ITEM
                     .skill__title {                                                
@@ -51,7 +49,8 @@
                     .skill__value {                            
                         background-color: white;
                         text-align: center;
-                        width: 40px;                        
+                        margin: 0 .2rem;
+                        width: 60px;                        
                     }      
                 }         
             }

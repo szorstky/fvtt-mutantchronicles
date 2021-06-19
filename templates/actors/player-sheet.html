@@ -43,13 +43,13 @@
     </header>
     <div class="sheet-content">
         <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
-        <div class="attribute__container">
+        <div class="flex-row attribute__container">
             <p class="attribute__title">{{localize "mutantchronicles.attribute.agility"}}</p>
             <input class="attribute__value" name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
         </div>
         <ul class="skill-list">
             <li class="skill-list-item"> 
-               <div class="skill__container">
+               <div class="flex-row skill__container">
                     <p class="skill__title">{{localize "mutantchronicles.skill.acrobatics"}}</p>
                     <input class="skill__value" name="data.skill.acrobatics.signature" type="checkbox" value="{{data.skill.acrobatics.signature}}"/>
                     <input class="skill__value" name="data.skill.acrobatics.expertise" type="text" value="{{data.skill.acrobatics.expertise}}"/>
