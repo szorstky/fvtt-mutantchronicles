@@ -1,3 +1,8 @@
+{{!-- AGILITY --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.agility"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.agility" value="{{data.attribute.agility}}"/>
+</div>
 <table class="skills__table">
     <thead>
         <tr>
@@ -24,6 +29,93 @@
             <td class="skill__value">
                 <input type="text" name="data.skill.acrobatics.focus" value="{{data.skill.acrobatics.focus}}" />
             </td>
-        </tr>
+        </tr>        
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.close_combat"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.close_combat.signature" data-dtype="Boolean" {{checked
+                    data.skill.close_combat.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.close_combat.expertise" value="{{data.skill.close_combat.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.close_combat.focus" value="{{data.skill.close_combat.focus}}" />
+            </td>
+        </tr>        
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.unarmed_combat"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.unarmed_combat.signature" data-dtype="Boolean" {{checked
+                    data.skill.unarmed_combat.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.unarmed_combat.expertise" value="{{data.skill.unarmed_combat.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.unarmed_combat.focus" value="{{data.skill.unarmed_combat.focus}}" />
+            </td>
+        </tr>        
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.stealth"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.stealth.signature" data-dtype="Boolean" {{checked
+                    data.skill.stealth.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.stealth.expertise" value="{{data.skill.stealth.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.stealth.focus" value="{{data.skill.stealth.focus}}" />
+            </td>
+        </tr>        
     </tbody>
 </table>
+
+{{!-- AWERNESS --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.awerness"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.awerness" value="{{data.attribute.awerness}}"/>
+</div>
+
+{{!-- COORDINATION --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.coordination"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.coordination" value="{{data.attribute.coordination}}"/>
+</div>
+
+{{!-- INTELLIGENCE --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.intelligence"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.intelligence" value="{{data.attribute.intelligence}}"/>
+</div>
+
+{{!-- MENTAL --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.mental"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.mental" value="{{data.attribute.mental}}"/>
+</div>
+
+{{!-- PERSONALITY --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.personality"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.personality" value="{{data.attribute.personality}}"/>
+</div>
+
+{{!-- PHYSIQUE --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.physique"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.physique" value="{{data.attribute.physique}}"/>
+</div>
+
+{{!-- STRENGTH --}}
+<div class="flex-row attribute__container">
+    <p class="attribute__title">{{localize "mutantchronicles.attribute.sthrength"}}</p>
+    <input class="attribute__value" type="text" name="data.attribute.atrength" value="{{data.attribute.strength}}"/>
+</div>

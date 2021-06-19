@@ -1,6 +1,5 @@
 {
     "mutantchronicles": {
-
         "chronicle_points": "Chronicle Points",
         "ranged": "Ranged",
         "melee": "Melee",
@@ -11,51 +10,76 @@
         "signature": "Signature",
         "expertise": "Expertise",
         "focus": "Focus",
-        
         "acrobatics": "Acrobatics",
-        
+        "close_combat": "Close Combat",
+        "unarmed_combat": "Unarmed Combat",
+        "stealth": "Stealth",
+        "observation": "Observation",
+        "insight": "Insight",
+        "thievery": "Thievery",
+        "ranged_weapons": "Ranged Weapons",
+        "heavy_weapons": "Heavy Weapons",
+        "gunnery": "Gunnery",
+        "pilot": "Pilot",
+        "space": "Space",
+        "education": "Education",
+        "linguistics": "Linguistics",
+        "science": "Science",
+        "mechanics": "Mechanics",
+        "survival": "Survival",
+        "vacuum": "Vacuum",
+        "treatment": "Treatment",
+        "medicine": "Medicine",
+        "psychotherapy": "Psychotherapy",
+        "willpower": "Willpower",
+        "mysticism": "Mysticism",
+        "animal_handling": "Animal Handling",
+        "lifestyle": "Lifestyle",
+        "persuade": "Persuade",
+        "command": "Command",
+        "resistance": "Resistance",
+        "athletics": "Athletics",
         "player": {
             "faction": "Faction"
         },
-
-        "attribute": {
-            "agility": "Agility",
-            "awerness": "Awerness",
-            "coordination": "Coordination",
-            "intelligence": "Intelligence",
-            "mental": "Mental",
-            "personality": "Personality",
-            "physique": "Physique",
-            "strength": "Strength"
-        },
-
+        "agility": "Agility",
+        "awerness": "Awerness",
+        "coordination": "Coordination",
+        "intelligence": "Intelligence",
+        "mental": "Mental",
+        "personality": "Personality",
+        "physique": "Physique",
+        "strength": "Strength",
+                
         "range": {
             "reach": "Reach",
             "close": "Close",
             "medium": "Medium",
-            "long": "Long"    
+            "long": "Long"
         },
+        
         "item": {
             "cost": "Cost",
-		    "encumbrance": "Encumbrance",
-		    "reliability" : "Reliability",
-			"restriction": "Restriction",
+            "encumbrance": "Encumbrance",
+            "reliability": "Reliability",
+            "restriction": "Restriction",
             "loads": "Loads",
             "maintenance": "Maintenance"
         },
+
         "weapon": {
             "cost": "Cost",
-		    "encumbrance": "Encumbrance",
-		    "reliability" : "Reliability",
-			"restriction": "Restriction",
+            "encumbrance": "Encumbrance",
+            "reliability": "Reliability",
+            "restriction": "Restriction",
             "load": "Load",
             "maintenance": "Maintenance",
             "range": "Range",
             "damage": "Damage",
             "mode": "Mode",
-		    "size": "Size",
-		    "reloads": "Reloads",
-		    "qualities": "Qualities"
+            "size": "Size",
+            "reloads": "Reloads",
+            "qualities": "Qualities"
         }
     }
 }
