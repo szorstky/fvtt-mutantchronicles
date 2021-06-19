@@ -46,9 +46,13 @@
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
   margin-top: 0;
 }
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__title {
+  text-align: left;
+}
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value {
   text-align: center;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input {
   width: 80px;
+}
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="text"] {
+  width: 100%;
 }
