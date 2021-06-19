@@ -11,9 +11,9 @@
         "signature": "Signature",
         "expertise": "Expertise",
         "focus": "Focus",
-        "skill": {
-            "acrobatics": "Acrobatics"
-        },
+        
+        "acrobatics": "Acrobatics",
+        
         "player": {
             "faction": "Faction"
         },
