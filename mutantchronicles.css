@@ -46,6 +46,7 @@
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
   margin-top: 0;
 }
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table th,
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table td {
   padding-left: 0.4rem;
   padding-right: 0.4rem;
@@ -55,7 +56,7 @@
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value {
   text-align: center;
-  padding: 0 0.4rem;
+  padding: 0.2rem 0.4rem;
   width: 80px;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="text"] {
