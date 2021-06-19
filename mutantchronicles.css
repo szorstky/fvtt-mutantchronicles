@@ -22,36 +22,38 @@
 .mutantchronicles.sheet.actor.player .sheet-content .editor {
   height: 100%;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list {
+.mutantchronicles.sheet.actor.player .sheet-content .attribute__container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__title {
+  color: white;
+  margin: auto;
+  width: 100%;
+}
+.mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__value {
+  background-color: white;
+  text-align: center;
+  width: 80px;
+}
+.mutantchronicles.sheet.actor.player .sheet-content .skill-list {
   list-style: none;
   padding: 0;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item {
-  background-color: black;
-  padding: 0.2rem 0.2rem 0.2rem 1rem;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stat-container {
+.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
   text-transform: uppercase;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute__title {
-  color: white;
+.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container .skill__title {
   margin: auto;
   width: 100%;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute__value {
-  background-color: white;
-  text-align: center;
-  width: 80px;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute__title {
-  margin: auto;
-  width: 100%;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .stats-list .stats-list-item .stats-attribute__value {
+.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container .skill__value {
   background-color: white;
   text-align: center;
   width: 40px;
