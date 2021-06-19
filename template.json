@@ -92,175 +92,175 @@
 			"skill": {
 				"acrobatics": {
 					"attribute": "agility",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"close_combat": {
 					"attribute": "agility",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"close_combat_unarmed": {
 					"attribute": "agility",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"stealth": {
 					"attribute": "agility",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"observation": {
 					"attribute": "awerness",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"observation_insight": {
 					"attribute": "awerness",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"thievery": {
 					"attribute": "awerness",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"ranged_weapons": {
 					"attribute": "coordination",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"ranged_weapons_heavy_weapons": {
 					"attribute": "coordination",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"ranged_weapons_gunnery": {
 					"attribute": "coordination",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"pilot": {
 					"attribute": "coordination",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"pilot_space": {
 					"attribute": "coordination",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"education": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"education_linguistics": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"education_science": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"mechanics": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"survival": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"survival_vacuum": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"treatment": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"treatment_medicine": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"treatment_psychotherapy": {
 					"attribute": "intelligence",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"willpower": {
 					"attribute": "mental",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"willpower_mysticism": {
 					"attribute": "mental",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"animal_handling": {
 					"attribute": "personality",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"lifestyle": {
 					"attribute": "personality",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"persuade": {
 					"attribute": "personality",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"persuade_command": {
 					"attribute": "personality",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"resistance": {
 					"attribute": "physique",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
 				"athletics": {
 					"attribute": "strength",
-					"signature": false,
+					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				}
