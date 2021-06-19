@@ -102,7 +102,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"close_combat_unarmed": {
+				"unarmed_combat": {
 					"attribute": "agility",
 					"signature": 0,
 					"expertise": 0,
@@ -120,7 +120,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"observation_insight": {
+				"insight": {
 					"attribute": "awerness",
 					"signature": 0,
 					"expertise": 0,
@@ -138,13 +138,13 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"ranged_weapons_heavy_weapons": {
+				"heavy_weapons": {
 					"attribute": "coordination",
 					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
-				"ranged_weapons_gunnery": {
+				"gunnery": {
 					"attribute": "coordination",
 					"signature": 0,
 					"expertise": 0,
@@ -156,7 +156,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"pilot_space": {
+				"space": {
 					"attribute": "coordination",
 					"signature": 0,
 					"expertise": 0,
@@ -168,13 +168,13 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"education_linguistics": {
+				"linguistics": {
 					"attribute": "intelligence",
 					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
-				"education_science": {
+				"science": {
 					"attribute": "intelligence",
 					"signature": 0,
 					"expertise": 0,
@@ -192,7 +192,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"survival_vacuum": {
+				"vacuum": {
 					"attribute": "intelligence",
 					"signature": 0,
 					"expertise": 0,
@@ -204,13 +204,13 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"treatment_medicine": {
+				"medicine": {
 					"attribute": "intelligence",
 					"signature": 0,
 					"expertise": 0,
 					"focus": 0
 				},
-				"treatment_psychotherapy": {
+				"psychotherapy": {
 					"attribute": "intelligence",
 					"signature": 0,
 					"expertise": 0,
@@ -222,7 +222,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"willpower_mysticism": {
+				"mysticism": {
 					"attribute": "mental",
 					"signature": 0,
 					"expertise": 0,
@@ -246,7 +246,7 @@
 					"expertise": 0,
 					"focus": 0
 				},
-				"persuade_command": {
+				"command": {
 					"attribute": "personality",
 					"signature": 0,
 					"expertise": 0,
