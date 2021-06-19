@@ -54,6 +54,7 @@
   width: 80px;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="text"] {
+  background-color: blue;
   width: 100%;
   margin: 0 0.2rem;
 }
