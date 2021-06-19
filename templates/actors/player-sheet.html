@@ -45,7 +45,7 @@
         <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>
         <div class="flex-row attribute__container">
             <p class="attribute__title">{{localize "mutantchronicles.attribute.agility"}}</p>
-            <input class="attribute__value" name="data.attribute.agility" type="text" value="{{data.attribute.agility}}"/>
+            <input class="attribute__value" type="text" name="data.attribute.agility" value="{{data.attribute.agility}}"/>
         </div>
 
         <table class="skills__table">
@@ -63,13 +63,13 @@
                         {{localize "mutantchronicles.acrobatics"}}
                     </td>
                     <td class="skill__value">
-                        <input name="data.skill.acrobatics.signature" type="checkbox" data-dtype="Boolean" {{data.skill.acrobatics.signature}}/>
+                        <input type="checkbox" name="data.skill.acrobatics.signature" data-dtype="Boolean" {{checked data.skill.acrobatics.signature}}/>
                     </td>
                     <td class="skill__value">
-                        <input name="data.skill.acrobatics.expertise" type="text" value="{{data.skill.acrobatics.expertise}}"/>
+                        <input type="text" name="data.skill.acrobatics.expertise" value="{{data.skill.acrobatics.expertise}}"/>
                     </td>
                     <td class="skill__value">
-                        <input name="data.skill.acrobatics.focus" type="text" value="{{data.skill.acrobatics.focus}}"/>
+                        <input type="text" name="data.skill.acrobatics.focus" value="{{data.skill.acrobatics.focus}}"/>
                     </td>
                 </tr>
             </tbody>
