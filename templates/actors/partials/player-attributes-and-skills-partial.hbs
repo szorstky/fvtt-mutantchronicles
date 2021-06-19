@@ -47,7 +47,7 @@
         </tr>        
 		<tr>
             <td class="skill_title">
-                {{localize "mutantchronicles.unarmed_combat"}}
+                - {{localize "mutantchronicles.unarmed_combat"}}
             </td>
             <td class="skill__value">
                 <input type="checkbox" name="data.skill.unarmed_combat.signature" data-dtype="Boolean" {{checked
@@ -83,39 +83,487 @@
     <p class="attribute__title">{{localize "mutantchronicles.awerness"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.awerness" value="{{data.attribute.awerness}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.observation"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.observation.signature" data-dtype="Boolean" {{checked data.skill.observation.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.observation.expertise" value="{{data.skill.observation.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.observation.focus" value="{{data.skill.observation.focus}}" />
+            </td>
+        </tr>        
+		<tr>
+            <td class="skill_title">
+                - {{localize "mutantchronicles.insight"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.insight.signature" data-dtype="Boolean" {{checked data.skill.insight.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.insight.expertise" value="{{data.skill.insight.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.insight.focus" value="{{data.skill.insight.focus}}" />
+            </td>
+        </tr>        
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.thievery"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.thieviery.signature" data-dtype="Boolean" {{checked data.skill.thieviery.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.thieviery.expertise" value="{{data.skill.thieviery.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.thieviery.focus" value="{{data.skill.thieviery.focus}}" />
+            </td>
+        </tr>        		
+    </tbody>
+</table>
 
 {{!-- COORDINATION --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.coordination"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.coordination" value="{{data.attribute.coordination}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.ranged_weapons"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.ranged_weapons.signature" data-dtype="Boolean" {{checked data.skill.ranged_weapons.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.ranged_weapons.expertise" value="{{data.skill.ranged_weapons.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.ranged_weapons.focus" value="{{data.skill.ranged_weapons.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.heavy_weapons"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.heavy_weapons.signature" data-dtype="Boolean" {{checked data.skill.heavy_weapons.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.heavy_weapons.expertise" value="{{data.skill.heavy_weapons.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.heavy_weapons.focus" value="{{data.skill.heavy_weapons.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.gunnery"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.gunnery.signature" data-dtype="Boolean" {{checked data.skill.gunnery.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.gunnery.expertise" value="{{data.skill.gunnery.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.gunnery.focus" value="{{data.skill.gunnery.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.pilot"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.pilot.signature" data-dtype="Boolean" {{checked data.skill.pilot.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.pilot.expertise" value="{{data.skill.pilot.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.pilot.focus" value="{{data.skill.pilot.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.space"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.space.signature" data-dtype="Boolean" {{checked data.skill.space.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.space.expertise" value="{{data.skill.space.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.space.focus" value="{{data.skill.space.focus}}" />
+            </td>
+        </tr>    
+    </tbody>
+</table>
 
 {{!-- INTELLIGENCE --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.intelligence"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.intelligence" value="{{data.attribute.intelligence}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.education"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.education.signature" data-dtype="Boolean" {{checked data.skill.education.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.education.expertise" value="{{data.skill.education.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.education.focus" value="{{data.skill.education.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.linguistics"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.linguistics.signature" data-dtype="Boolean" {{checked data.skill.linguistics.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.linguistics.expertise" value="{{data.skill.linguistics.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.linguistics.focus" value="{{data.skill.linguistics.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.science"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.science.signature" data-dtype="Boolean" {{checked data.skill.science.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.science.expertise" value="{{data.skill.science.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.science.focus" value="{{data.skill.science.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.mechanics"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.mechanics.signature" data-dtype="Boolean" {{checked data.skill.mechanics.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.mechanics.expertise" value="{{data.skill.mechanics.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.mechanics.focus" value="{{data.skill.mechanics.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.survival"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.survival.signature" data-dtype="Boolean" {{checked data.skill.survival.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.survival.expertise" value="{{data.skill.survival.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.survival.focus" value="{{data.skill.survival.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.vacuum"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.vacuum.signature" data-dtype="Boolean" {{checked data.skill.vacuum.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.vacuum.expertise" value="{{data.skill.vacuum.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.vacuum.focus" value="{{data.skill.vacuum.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.treatment"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.treatment.signature" data-dtype="Boolean" {{checked data.skill.treatment.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.treatment.expertise" value="{{data.skill.treatment.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.treatment.focus" value="{{data.skill.treatment.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.medicine"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.medicine.signature" data-dtype="Boolean" {{checked data.skill.medicine.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.medicine.expertise" value="{{data.skill.medicine.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.medicine.focus" value="{{data.skill.medicine.focus}}" />
+            </td>
+        </tr>    
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.psychotherapy"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.psychotherapy.signature" data-dtype="Boolean" {{checked data.skill.psychotherapy.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.psychotherapy.expertise" value="{{data.skill.psychotherapy.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.psychotherapy.focus" value="{{data.skill.psychotherapy.focus}}" />
+            </td>
+        </tr>    
+    </tbody>
+</table>
 
 {{!-- MENTAL --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.mental"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.mental" value="{{data.attribute.mental}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.willpower"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.willpower.signature" data-dtype="Boolean" {{checked data.skill.willpower.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.willpower.expertise" value="{{data.skill.willpower.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.willpower.focus" value="{{data.skill.willpower.focus}}" />
+            </td>
+        </tr>  	
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.mysticism"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.mysticism.signature" data-dtype="Boolean" {{checked data.skill.mysticism.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.mysticism.expertise" value="{{data.skill.mysticism.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.mysticism.focus" value="{{data.skill.mysticism.focus}}" />
+            </td>
+        </tr>  				
+    </tbody>
+</table>
 
 {{!-- PERSONALITY --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.personality"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.personality" value="{{data.attribute.personality}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.animal_handling"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.animal_handling.signature" data-dtype="Boolean" {{checked data.skill.animal_handling.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.animal_handling.expertise" value="{{data.skill.animal_handling.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.animal_handling.focus" value="{{data.skill.animal_handling.focus}}" />
+            </td>
+        </tr>  	
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.lifestyle"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.lifestyle.signature" data-dtype="Boolean" {{checked data.skill.lifestyle.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.lifestyle.expertise" value="{{data.skill.lifestyle.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.lifestyle.focus" value="{{data.skill.lifestyle.focus}}" />
+            </td>
+        </tr>  	
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.persuade"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.persuade.signature" data-dtype="Boolean" {{checked data.skill.persuade.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.persuade.expertise" value="{{data.skill.persuade.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.persuade.focus" value="{{data.skill.persuade.focus}}" />
+            </td>
+        </tr>  	
+		<tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.command"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.command.signature" data-dtype="Boolean" {{checked data.skill.command.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.command.expertise" value="{{data.skill.command.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.command.focus" value="{{data.skill.command.focus}}" />
+            </td>
+        </tr>  	
+    </tbody>
+</table>
 
 {{!-- PHYSIQUE --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.physique"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.physique" value="{{data.attribute.physique}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.resistance"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.resistance.signature" data-dtype="Boolean" {{checked data.skill.resistance.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.resistance.expertise" value="{{data.skill.resistance.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.resistance.focus" value="{{data.skill.resistance.focus}}" />
+            </td>
+        </tr>  			
+	</tbody>
+</table>
 
 {{!-- STRENGTH --}}
 <div class="flex-row attribute__container">
     <p class="attribute__title">{{localize "mutantchronicles.sthrength"}}</p>
     <input class="attribute__value" type="text" name="data.attribute.atrength" value="{{data.attribute.strength}}"/>
 </div>
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.athletics"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.athletics.signature" data-dtype="Boolean" {{checked data.skill.athletics.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.athletics.expertise" value="{{data.skill.athletics.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.athletics.focus" value="{{data.skill.athletics.focus}}" />
+            </td>
+        </tr>  			
+	</tbody>
+</table>
