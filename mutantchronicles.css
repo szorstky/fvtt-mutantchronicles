@@ -43,19 +43,12 @@
   text-align: center;
   width: 80px;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .skill-list {
-  list-style: none;
-  padding: 0;
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table {
+  margin-top: 0;
 }
-.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container {
-  text-transform: uppercase;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container .skill__title {
-  margin: auto;
-  width: 100%;
-}
-.mutantchronicles.sheet.actor.player .sheet-content .skill-list .skill-list-item .skill__container .skill__value {
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value {
   text-align: center;
-  margin: 0 0.2rem;
+}
+.mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input {
   width: 80px;
 }
