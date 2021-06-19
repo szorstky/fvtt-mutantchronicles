@@ -1,0 +1,29 @@
+<table class="skills__table">
+    <thead>
+        <tr>
+            <th class="skill__title">
+                {{localize "mutantchronicles.skill"}}
+                </td>
+            <th>{{localize "mutantchronicles.signature"}}</td>
+            <th>{{localize "mutantchronicles.expertise"}}</td>
+            <th>{{localize "mutantchronicles.focus"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="skill_title">
+                {{localize "mutantchronicles.acrobatics"}}
+            </td>
+            <td class="skill__value">
+                <input type="checkbox" name="data.skill.acrobatics.signature" data-dtype="Boolean" {{checked
+                    data.skill.acrobatics.signature}} />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.acrobatics.expertise" value="{{data.skill.acrobatics.expertise}}" />
+            </td>
+            <td class="skill__value">
+                <input type="text" name="data.skill.acrobatics.focus" value="{{data.skill.acrobatics.focus}}" />
+            </td>
+        </tr>
+    </tbody>
+</table>

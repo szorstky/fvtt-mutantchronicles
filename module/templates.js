@@ -1,5 +1,6 @@
 export const preloadHandlebarsTemplates = async function() {
     const template_paths = [
+        "systems/mutantchronicles/templates/actors/partials/player-skills-partial.hbs",
         "systems/mutantchronicles/templates/actors/partials/mc-actor-stats-block.hbs"
     ];
 
