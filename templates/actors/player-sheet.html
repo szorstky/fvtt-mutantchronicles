@@ -42,35 +42,11 @@
             </table>
     </header>
     <div class="sheet-content">
-        <h1>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>        
+        <h5>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>        
         {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}         
     </div>
-    <!-- <table>
-        <thead>
-            <tr>
-                <td>{{ localize 'mutantchronicles.skill' }}</td>
-                <td>{{ localize 'mutantchronicles.signature' }}</td>
-                <td>{{ localize 'mutantchronicles.focus' }}</td>
-            </tr>                    
-        </thead>
-        <tbody>
-            <tr>
-                <td>{{ localize 'mutantchronicles.acrobatics' }}</td>
-                <td>
-                    <div data-edit="data.skill.acrobatics.expertise" contenteditable="">
-                        {{data.skill.acrobatics.expertise}}
-                    </div>
-                </td>
-                <td>
-                    <div data-edit="data.skill.acrobatics.focus" contenteditable="">
-                        {{data.skill.acrobatics.focus}}
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table> -->
 </div>        
-    <div class="sidebar">
+    <!-- <div class="sidebar">
         {{#if (eq actor.type "player")}}
         <h1 class="faction">
             <div data-edit="data.faction" contenteditable="">
@@ -81,5 +57,5 @@
         <div class="stats">
            {{> "systems/mutantchronicles/templates/actors/partials/mc-actor-stats-block.hbs"}} 
         </div>        
-    </div>
+    </div> -->
 </form>
