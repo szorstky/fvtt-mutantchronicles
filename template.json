@@ -1,6 +1,11 @@
 {
 	"Actor": {
-		"types": ["player", "npc", "nemesis", "enemy"],
+		"types": [
+			"player",
+			"npc",
+			"nemesis",
+			"enemy"
+		],
 		"templates": {
 			"mc_character": {
 				"attribute": {
@@ -12,59 +17,62 @@
 					"personality": 5,
 					"physique": 5,
 					"strength": 5
-				}				
+				}
 			},
 			"common_wounds": {
-            	"wounds": {
-					"mental": { 
-						"value": 0, 
-						"max": 5 
+				"wounds": {
+					"mental": {
+						"value": 0,
+						"max": 5
 					},
 					"light": {
-						"head": { 
+						"head": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						},
-						"torso": { 
+						"torso": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						},
-						"arm_left": { 
+						"arm_left": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						},
-						"arm_right": { 
+						"arm_right": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						},
-						"leg_left": { 
+						"leg_left": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						},
-						"leg_right": { 
+						"leg_right": {
 							"soak": 0,
-							"value": 0, 
-							"max": 0							
+							"value": 0,
+							"max": 0
 						}
 					},
-					"serious": { 
-						"value": 0, 
-						"max": 10 
+					"serious": {
+						"value": 0,
+						"max": 10
 					},
-					"critical": { 
-						"value": 0, 
-						"max": 6 
+					"critical": {
+						"value": 0,
+						"max": 6
 					}
 				}
-			}		
+			}
 		},
-		"player":{
-			"templates": ["mc_character", "common_wounds"],
+		"player": {
+			"templates": [
+				"mc_character",
+				"common_wounds"
+			],
 			"faction": "",
 			"experience": "",
 			"social_status": "",
@@ -72,143 +80,246 @@
 			"earnings": "",
 			"assets": "",
 			"chronicle_points": 0,
-			"dread": { 
-				"value": 0, 
+			"dread": {
+				"value": 0,
 				"max": 15
 			},
-			"damage_bonus": { 
+			"damage_bonus": {
 				"ranged": 0,
-			    "melee": 0
+				"melee": 0
 			},
 			"status": "",
-			"skill": { 
-				"acrobatics": { 
-					"attr": "agility", "signature": false, "expertise": 0, "focus": 0 
+			"skill": {
+				"acrobatics": {
+					"attribute": "agility",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"close_combat": {  
-					"attr": "agility", "signature": false, "expertise": 0, "focus": 0 
+				"close_combat": {
+					"attribute": "agility",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"close_combat_unarmed": { 
-					"attr": "agility", "signature": false, "expertise": 0, "focus": 0 
+				"close_combat_unarmed": {
+					"attribute": "agility",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"stealth":{ 
-					"attr": "agility", "signature": false, "expertise": 0, "focus": 0 
+				"stealth": {
+					"attribute": "agility",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"observation": { 
-					"attr": "awerness", "signature": false, "expertise": 0, "focus": 0 
+				"observation": {
+					"attribute": "awerness",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"observation_insight": { 
-					"attr": "awerness", "signature": false, "expertise": 0, "focus": 0 
+				"observation_insight": {
+					"attribute": "awerness",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"thievery": { 
-					"attr": "awerness", "signature": false, "expertise": 0, "focus": 0 
+				"thievery": {
+					"attribute": "awerness",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"ranged_weapons": { 
-					"attr": "coordination", "signature": false, "expertise": 0, "focus": 0 
+				"ranged_weapons": {
+					"attribute": "coordination",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
 				"ranged_weapons_heavy_weapons": {
-					"attr": "coordination", "signature": false, "expertise": 0, "focus": 0 
+					"attribute": "coordination",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"ranged_weapons_gunnery": { 
-					"attr": "coordination", "signature": false, "expertise": 0, "focus": 0 
+				"ranged_weapons_gunnery": {
+					"attribute": "coordination",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"pilot": { 
-					"attr": "coordination", "signature": false, "expertise": 0, "focus": 0 
+				"pilot": {
+					"attribute": "coordination",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"pilot_space": { 
-					"attr": "coordination", "signature": false, "expertise": 0, "focus": 0 
+				"pilot_space": {
+					"attribute": "coordination",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"education": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"education": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"education_linguistics": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"education_linguistics": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"education_science": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"education_science": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"mechanics": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"mechanics": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"survival": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"survival": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"survival_vacuum": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"survival_vacuum": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"treatment": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"treatment": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"treatment_medicine": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"treatment_medicine": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"treatment_psychotherapy": { 
-					"attr": "intelligence", "signature": false, "expertise": 0, "focus": 0 
+				"treatment_psychotherapy": {
+					"attribute": "intelligence",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"willpower": { 
-					"attr": "mental", "signature": false, "expertise": 0, "focus": 0 
+				"willpower": {
+					"attribute": "mental",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"willpower_mysticism": { 
-					"attr": "mental", "signature": false, "expertise": 0, "focus": 0 
+				"willpower_mysticism": {
+					"attribute": "mental",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"animal_handling": { 
-					"attr": "personality", "signature": false, "expertise": 0, "focus": 0 
+				"animal_handling": {
+					"attribute": "personality",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"lifestyle": { 
-					"attr": "personality", "signature": false, "expertise": 0, "focus": 0 
+				"lifestyle": {
+					"attribute": "personality",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"persuade": { 
-					"attr": "personality", "signature": false, "expertise": 0, "focus": 0 
+				"persuade": {
+					"attribute": "personality",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
 				"persuade_command": {
-					"attr": "personality", "signature": false, "expertise": 0, "focus": 0 
+					"attribute": "personality",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"resistance": { 
-					"attr": "physique", "signature": false, "expertise": 0, "focus": 0 
+				"resistance": {
+					"attribute": "physique",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				},
-				"athletics": { 
-					"attr": "strength", "signature": false, "expertise": 0, "focus": 0 
+				"athletics": {
+					"attribute": "strength",
+					"signature": false,
+					"expertise": 0,
+					"focus": 0
 				}
 			}
-			
 		},
 		"npc": {
-			"templates": ["mc_character", "common_wounds"]
+			"templates": [
+				"mc_character",
+				"common_wounds"
+			]
 		},
 		"nemesis": {
-			"templates": ["mc_character", "common_wounds"]
+			"templates": [
+				"mc_character",
+				"common_wounds"
+			]
 		},
 		"enemy": {
-			"templates": ["mc_character"]
+			"templates": [
+				"mc_character"
+			]
 		}
 	},
 	"Item": {
-	  "types": ["item", "weapon"],
-	  "templates": {
-			"basic" : {							
+		"types": [
+			"item",
+			"weapon",
+			"skill",
+			"talent"
+		],
+		"templates": {
+			"basic": {
 				"cost": 0,
-		        "encumbrance": 0,
-		        "reliability" : "",
+				"encumbrance": 0,
+				"reliability": "",
 				"restriction": 0,
 				"description": ""
 			}
-	  },	  
-	  "item": {
-		"templates": ["basic"],
-		"loads": 0,
-		"maintenance": ""
-	  },	  
-	  "weapon": {
-		"templates": ["basic"],
-		"range": "",
-		"damage": {
-			"symetry_dices": 1,
-			"value": 1			
 		},
-		"mode": "-",
-		"size": "-",
-		"reloads": 0,
-		"qualities": ""
-	  }	 
+		"item": {
+			"templates": [
+				"basic"
+			],
+			"loads": 0,
+			"maintenance": ""
+		},
+		"weapon": {
+			"templates": [
+				"basic"
+			],
+			"range": "",
+			"damage": {
+				"symetry_dices": 1,
+				"value": 1
+			},
+			"mode": "-",
+			"size": "-",
+			"reloads": 0,
+			"qualities": ""
+		}		
 	}
 }

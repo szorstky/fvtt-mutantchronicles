@@ -16,23 +16,36 @@
             .stats-list-item {
                 background-color: black;
                 padding: .2rem .2rem .2rem 1rem;
-                .stats-attribute {                   
+
+                .stat-container {
                     display: flex;
                     flex-direction: row;
                     align-content: center;                    
                     justify-content: space-between;
-                    .stats-attribute__title {                                                
-                        color: white;
-                        margin: auto;
-                        text-align: left;                        
-                        text-transform: uppercase;
-                        width: 100%;
-                    }
-                    .stats-attribute__value {                            
-                        background-color: white;
-                        width: 80px;                        
-                    }
+                    text-transform: uppercase;
                 }
+                // ATTRIBUTE ITEM                   
+                .stats-attribute__title {                                                
+                    color: white;
+                    margin: auto;
+                   
+                    width: 100%;
+                }
+                .stats-attribute__value {                            
+                    background-color: white;
+                    text-align: center;
+                    width: 80px;                        
+                }
+                // SKILL ITEM
+                .stats-attribute__title {                                                
+                    margin: auto;
+                    width: 100%;
+                }
+                .stats-attribute__value {                            
+                    background-color: white;
+                    text-align: center;
+                    width: 40px;                        
+                }               
             }
         }
     }    
