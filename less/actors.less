@@ -4,6 +4,13 @@
         flex-direction: column;
     }
 
+    .sheet-header {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;        
+    }
+
     .sheet-row {
         display: flex;
         flex-direction: row;
@@ -28,7 +35,7 @@
             background: rgba(0, 0, 0, 0.5);
             text-shadow: 1px 1px #000;
             border-bottom: 1px solid #000;
-            padding: .1rem .4rem;
+            padding: .2rem .1rem .1rem 0.4rem;
             // ATTRIBUTE ITEM                   
             .attribute__title {
                 color: #f0f0e0;
@@ -39,7 +46,7 @@
             .attribute__value {                            
                 background-color: white; 
                 text-align: center;
-                width: 80px;  
+                width: 40px;  
                 height: 1rem;                      
             }
         }
@@ -62,15 +69,15 @@
             .skill__value {
                 text-align: center;
                 padding: .1rem .4rem;
-                width: 80px;
+                width: 40px;
                 input {
                     &[type="text"] {
                         height: 1rem;
                         width: 100%;                            
                     }
                     &[type="checkbox"]{
-                        height: 1rem;
-                        width:  1rem;
+                        height: .8rem;
+                        width:  .8rem;
                     }   
                 }
             }

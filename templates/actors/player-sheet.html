@@ -1,12 +1,23 @@
 <form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
+        <div>
+            <h1><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h1>
+            <label>{{localize "mutantchronicles.player.faction"}}</label>
+            <input name="data.faction" type="text" value="{{data.faction}}"
+                placeholder="{{ localize 'mutantchronicles.player.faction' }}" />
+            <table>
+        </div>
+        <dv>
+            {{ localize 'mutantchronicles.chronicle_points' }}
+            <div data-edit="data.chronicle_points" contenteditable="">
+                {{data.chronicle_points}}
+            </div>
+        </dv>
+    </header>
     <div class="sheet-row">
-        <div class="sheet-content">        
-            <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
-            <div>
-                <label>{{ localize 'Name' }}</label>
-                <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-                <label>{{localize "mutantchronicles.player.faction"}}</label>
-                <input name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
+        <div class="sheet-content">
+            <div>               
                 <table>
                     <thead>
                         <tr>
@@ -45,9 +56,9 @@
         </div>
         <div class="sheet-content">
             <!-- <h5>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>         -->
-            {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}         
+            {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
         </div>
-    </div>        
+    </div>
     <!-- <div class="sidebar">
         {{#if (eq actor.type "player")}}
         <h1 class="faction">

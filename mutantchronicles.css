@@ -14,6 +14,12 @@
   display: flex;
   flex-direction: column;
 }
+.mutantchronicles.sheet.actor.player .sheet-header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
 .mutantchronicles.sheet.actor.player .sheet-row {
   display: flex;
   flex-direction: row;
@@ -36,7 +42,7 @@
   background: rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px #000;
   border-bottom: 1px solid #000;
-  padding: 0.1rem 0.4rem;
+  padding: 0.2rem 0.1rem 0.1rem 0.4rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__title {
   color: #f0f0e0;
@@ -47,7 +53,7 @@
 .mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__value {
   background-color: white;
   text-align: center;
-  width: 80px;
+  width: 40px;
   height: 1rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
@@ -68,13 +74,13 @@
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value {
   text-align: center;
   padding: 0.1rem 0.4rem;
-  width: 80px;
+  width: 40px;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="text"] {
   height: 1rem;
   width: 100%;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="checkbox"] {
-  height: 1rem;
-  width: 1rem;
+  height: 0.8rem;
+  width: 0.8rem;
 }
