@@ -13,12 +13,7 @@
 .mutantchronicles.sheet.actor.player form {
   display: flex;
   flex-direction: column;
-}
-.mutantchronicles.sheet.actor.player .sheet-header {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
+  align-content: flex-start;
 }
 .mutantchronicles.sheet.actor.player .sheet-row {
   display: flex;

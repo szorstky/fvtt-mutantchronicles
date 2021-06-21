@@ -1,23 +1,25 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
-        <div>
-            <h1><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h1>
-            <label>{{localize "mutantchronicles.player.faction"}}</label>
-            <input name="data.faction" type="text" value="{{data.faction}}"
-                placeholder="{{ localize 'mutantchronicles.player.faction' }}" />
-            <table>
-        </div>
-        <dv>
-            {{ localize 'mutantchronicles.chronicle_points' }}
-            <div data-edit="data.chronicle_points" contenteditable="">
-                {{data.chronicle_points}}
+        <div class="sheet-row">
+            <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
+            <div>
+                <h3><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h3>
+                <label>{{localize "mutantchronicles.player.faction"}}</label>
+                <input name="data.faction" type="text" value="{{data.faction}}"
+                    placeholder="{{ localize 'mutantchronicles.player.faction' }}" />
+                <table>
             </div>
-        </dv>
+            <dv>
+                {{ localize 'mutantchronicles.chronicle_points' }}
+                <div data-edit="data.chronicle_points" contenteditable="">
+                    {{data.chronicle_points}}
+                </div>
+            </dv>
+        </div>
     </header>
     <div class="sheet-row">
         <div class="sheet-content">
-            <div>               
+            <div>
                 <table>
                     <thead>
                         <tr>
