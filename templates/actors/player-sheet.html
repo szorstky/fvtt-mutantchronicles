@@ -1,10 +1,15 @@
 <form class="{{cssClass}}" autocomplete="off">
     <div class="sheet-row">
-        <div class="sheet-content sheet-content--grow">
+        <div class="sheet-content full-width">
             <div class="sheet-row">
                 <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="84" width="84" />
-                <div>
-                    <h3><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h3>
+                <div class="full-width">
+                    <div class="stat-box flex-2">
+                        <p class="stat-box__title">{{localize 'Name'}}</p>
+                        <div class="stat-box__value" data-edit="actor.name" contenteditable="">
+                            {{actor.name}}
+                        </div>
+                    </div>
                     <div class="sheet-row">
                         <div class="stat-box flex-2">
                             <p class="stat-box__title">{{localize "mutantchronicles.player.faction"}}</p>
