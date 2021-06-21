@@ -15,6 +15,12 @@
   flex-direction: column;
   align-content: flex-start;
 }
+.mutantchronicles.sheet.actor.player .flex-1 {
+  flex: 1;
+}
+.mutantchronicles.sheet.actor.player .flex-2 {
+  flex: 2;
+}
 .mutantchronicles.sheet.actor.player .sheet-header {
   align-items: flex-start;
 }
@@ -29,7 +35,6 @@
 .mutantchronicles.sheet.actor.player .stat-box {
   border: 1px solid #7a7971;
   margin: 0 0.2rem;
-  flex: 1;
 }
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__title {
   background: rgba(0, 0, 0, 0.5);
@@ -38,6 +43,9 @@
   color: #f0f0e0;
   margin: auto;
   width: 100%;
+  padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player .stat-box .stat-box__value {
   padding: 0.1rem 0.3rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box--grow {
