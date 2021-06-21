@@ -1,6 +1,6 @@
 <form class="{{cssClass}}" autocomplete="off">
     <div class="sheet-row">
-        <div class="sheet-content">
+        <div class="sheet-content sheet-content--grow">
             <div class="sheet-row">
                 <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="84" width="84" />
                 <div>
@@ -34,7 +34,7 @@
                 </div>  
             </div>              
         </div>    
-        <div class="sheet-content">
+        <div class="sheet-content flex-1">
             {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
             <table>
                 <thead>

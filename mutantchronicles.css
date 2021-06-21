@@ -54,6 +54,9 @@
 .mutantchronicles.sheet.actor.player .stat-box--center {
   text-align: center;
 }
+.mutantchronicles.sheet.actor.player .sheet-content--grow {
+  width: 100%;
+}
 .mutantchronicles.sheet.actor.player .sheet-content {
   height: 100%;
   display: flex;
