@@ -15,6 +15,17 @@
   flex-direction: column;
   align-content: flex-start;
 }
+.mutantchronicles.sheet.actor.player .sheet-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.mutantchronicles.sheet.actor.player .sheet-header img {
+  flex: 0 0 84px;
+  height: 84px;
+  margin-right: 6px;
+}
 .mutantchronicles.sheet.actor.player .sheet-row {
   display: flex;
   flex-direction: row;
