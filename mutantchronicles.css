@@ -48,7 +48,7 @@
   background-color: white;
   text-align: center;
   width: 80px;
-  height: 1.4rem;
+  height: 1rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
   margin: 0;
@@ -67,11 +67,11 @@
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value {
   text-align: center;
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.4rem;
   width: 80px;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="text"] {
-  height: 1.2rem;
+  height: 1rem;
   width: 100%;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table .skill__value input[type="checkbox"] {
