@@ -28,6 +28,8 @@
 }
 .mutantchronicles.sheet.actor.player .stat-box {
   border: 1px solid #7a7971;
+  margin: 0 0.2rem;
+  flex: 1;
 }
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__title {
   background: rgba(0, 0, 0, 0.5);
@@ -35,6 +37,10 @@
   border-bottom: 1px solid #000;
   color: #f0f0e0;
   margin: auto;
+  width: 100%;
+  padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player .stat-box--grow {
   width: 100%;
 }
 .mutantchronicles.sheet.actor.player .stat-box--center {
