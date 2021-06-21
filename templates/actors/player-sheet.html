@@ -1,78 +1,57 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <div class="sheet-row">
-            <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
-            <div>
-                <h3><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h3>
-                <label>{{localize "mutantchronicles.player.faction"}}</label>
-                <input name="data.faction" type="text" value="{{data.faction}}"
-                    placeholder="{{ localize 'mutantchronicles.player.faction' }}" />
-                <table>
-            </div>
-            <dv>
-                {{ localize 'mutantchronicles.chronicle_points' }}
-                <div data-edit="data.chronicle_points" contenteditable="">
-                    {{data.chronicle_points}}
-                </div>
-            </dv>
+        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
+        <div>
+            <h3><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" /></h3>
+            <label>{{localize "mutantchronicles.player.faction"}}</label>
+            <input name="data.faction" type="text" value="{{data.faction}}"
+                placeholder="{{ localize 'mutantchronicles.player.faction' }}" />
+            <table>
         </div>
+        <div>
+            {{ localize 'mutantchronicles.chronicle_points' }}
+            <div data-edit="data.chronicle_points" contenteditable="">
+                {{data.chronicle_points}}
+            </div>
+            </dv>
     </header>
-    <div>
-        <div class="sheet-row">
-            <div class="sheet-content">
-                <div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <td>{{ localize 'mutantchronicles.chronicle_points' }}</td>
-                                <td>{{ localize 'mutantchronicles.ranged' }}</td>
-                                <td>{{ localize 'mutantchronicles.melee' }}</td>
-                                <td>{{ localize 'mutantchronicles.dread' }}</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div data-edit="data.chronicle_points" contenteditable="">
-                                        {{data.chronicle_points}}
-                                    </div>
-                                </td>
-                                <td>
-                                    <div data-edit="data.damage_bonus.ranged" contenteditable="">
-                                        {{data.damage_bonus.ranged}}
-                                    </div>
-                                </td>
-                                <td>
-                                    <div data-edit="data.damage_bonus.melee" contenteditable="">
-                                        {{data.damage_bonus.melee}}
-                                    </div>
-                                </td>
-                                <td>
-                                    <div data-edit="data.dread.value" contenteditable="">
-                                        {{data.dread.value}}
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="sheet-content">
-                <!-- <h5>{{ localize 'mutantchronicles.attributes' }} & {{ localize 'mutantchronicles.skills' }}</h1>         -->
-                {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
-            </div>
+    <div class="sheet-content">
+        {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>{{ localize 'mutantchronicles.chronicle_points' }}</td>
+                        <td>{{ localize 'mutantchronicles.ranged' }}</td>
+                        <td>{{ localize 'mutantchronicles.melee' }}</td>
+                        <td>{{ localize 'mutantchronicles.dread' }}</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-edit="data.chronicle_points" contenteditable="">
+                                {{data.chronicle_points}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.damage_bonus.ranged" contenteditable="">
+                                {{data.damage_bonus.ranged}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.damage_bonus.melee" contenteditable="">
+                                {{data.damage_bonus.melee}}
+                            </div>
+                        </td>
+                        <td>
+                            <div data-edit="data.dread.value" contenteditable="">
+                                {{data.dread.value}}
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-    <!-- <div class="sidebar">
-        {{#if (eq actor.type "player")}}
-        <h1 class="faction">
-            <div data-edit="data.faction" contenteditable="">
-                {{data.faction}}
-            </div>
-        </h1>
-        {{/if}}
-        <div class="stats">
-           {{> "systems/mutantchronicles/templates/actors/partials/mc-actor-stats-block.hbs"}} 
-        </div>        
-    </div> -->
 </form>
