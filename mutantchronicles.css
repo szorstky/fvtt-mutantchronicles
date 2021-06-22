@@ -37,7 +37,7 @@
 }
 .mutantchronicles.sheet.actor.player .stat-box {
   border: 1px solid #7a7971;
-  margin: 0 0.2rem 0.2rem 0.2rem;
+  margin: 0.2rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__title {
   background: rgba(0, 0, 0, 0.5);
@@ -49,10 +49,12 @@
   padding: 0.1rem 0.3rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__value {
-  padding: 0.1rem 0.3rem;
+  padding: 0.2rem 0.3rem 0 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box label {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.5);
 }
 .mutantchronicles.sheet.actor.player .stat-box--center {
@@ -74,7 +76,8 @@
   background: rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px #000;
   border-bottom: 1px solid #000;
-  padding: 0.1rem 0.1rem 0.1rem 0.4rem;
+  padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+  margin: 0.2rem 0 0 0.2rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__title {
   font-size: 0.8rem;
@@ -86,15 +89,14 @@
 .mutantchronicles.sheet.actor.player .sheet-content .attribute__container .attribute__value {
   background-color: white;
   text-align: center;
-  width: 40px;
+  width: 60px;
   height: 1.1rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
-  margin: 0;
   font-size: 0.7rem;
   border-top: none;
   border: 1px solid #7a7971;
-  margin-bottom: 0.2rem;
+  margin: 0 0.2rem 0.2rem 0.2rem;
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table th,
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table td {
