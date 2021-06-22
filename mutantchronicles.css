@@ -51,6 +51,10 @@
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__value {
   padding: 0.1rem 0.3rem;
 }
+.mutantchronicles.sheet.actor.player .stat-box label {
+  font-size: 0.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
 .mutantchronicles.sheet.actor.player .stat-box--center {
   text-align: center;
 }
