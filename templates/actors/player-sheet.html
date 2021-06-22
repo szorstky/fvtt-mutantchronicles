@@ -2,7 +2,7 @@
     <div class="sheet-row">
         <div class="sheet-content full-width">
             <div class="sheet-row">
-                <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="84" width="84" />
+                <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90" />
                 <div class="full-width">
                     <div class="stat-box flex-2">
                         <p class="stat-box__title">{{localize 'Name'}}</p>
@@ -11,33 +11,51 @@
                         </div>
                     </div>
                     <div class="sheet-row">
-                        <div class="stat-box flex-2">
+                        <div class="stat-box full-width">
                             <p class="stat-box__title">{{localize "mutantchronicles.player.faction"}}</p>
                             <div class="stat-box__value" data-edit="data.faction" contenteditable="">
                                 {{data.faction}}
                             </div>
                         </div>
-                        <div class="stat-box stat-box--center flex-1">
-                            <p class="stat-box__title">{{localize "mutantchronicles.chronicle_points"}}</p>
-                            <div class="stat-box__value" data-edit="data.chronicle_points" contenteditable="">
-                                {{data.chronicle_points}}
-                            </div>
+                    </div>    
+                    <div class="stat-box stat-box--center">
+                        <p class="stat-box__title">{{localize "mutantchronicles.experience"}}</p>
+                        <div class="stat-box__value" data-edit="data.experience" contenteditable="">
+                            {{data.experience}}
                         </div>
-                        <div class="stat-box stat-box--center flex-1">
-                            <p class="stat-box__title">{{localize "mutantchronicles.dread"}}</p>
-                            <div class="stat-box__value" data-edit="data.dread.value" contenteditable="">
-                                {{data.dread.value}}
-                            </div>
-                        </div>
-                        <div class="stat-box stat-box--center flex-1">
-                            <p class="stat-box__title">{{localize "mutantchronicles.experience"}}</p>
-                            <div class="stat-box__value" data-edit="data.experience" contenteditable="">
-                                {{data.experience}}
-                            </div>
-                        </div>
-                    </div>            
+                    </div>        
                 </div>  
-            </div>              
+            </div>   
+            <div class="sheet-row">
+                <div class="stat-box stat-box--center flex-1">
+                    <p class="stat-box__title">{{localize "mutantchronicles.chronicle_points"}}</p>
+                    <div class="stat-box__value" data-edit="data.chronicle_points" contenteditable="">
+                        {{data.chronicle_points}}
+                    </div>
+                    <label>Max 5</label>
+                </div>
+                <div class="stat-box stat-box--center flex-1">
+                    <p class="stat-box__title">{{localize "mutantchronicles.dread"}}</p>
+                    <div class="stat-box__value" data-edit="data.dread.value" contenteditable="">
+                        {{data.dread.value}}
+                    </div>
+                    <label>Max 15</label>
+                </div>   
+                <div class="stat-box stat-box--center flex-1">
+                    <p class="stat-box__title">{{localize "mutantchronicles.damage_bonus"}}</p>
+                    <div class="stat-box__value" data-edit="data.damage_bonus.ranged" contenteditable="">
+                        {{data.damage_bonus.ranged}}
+                    </div>
+                    <label>{{localize "mutantchronicles.ranged"}}</label>
+                </div>
+                <div class="stat-box stat-box--center flex-1">
+                    <p class="stat-box__title">{{localize "mutantchronicles.damage_bonus"}}</p>
+                    <div class="stat-box__value" data-edit="data.damage_bonus.melee" contenteditable="">
+                        {{data.damage_bonus.melee}}
+                    </div>
+                    <label>{{localize "mutantchronicles.melee"}}</label>
+                </div>               
+            </div>           
         </div>    
         <div class="sheet-content flex-1">
             {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}

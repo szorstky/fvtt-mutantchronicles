@@ -28,8 +28,8 @@
   align-items: flex-start;
 }
 .mutantchronicles.sheet.actor.player .sheet-header img {
-  flex: 0 0 84px;
-  height: 84px;
+  flex: 0 0 90px;
+  height: 90px;
 }
 .mutantchronicles.sheet.actor.player .sheet-row {
   display: flex;
