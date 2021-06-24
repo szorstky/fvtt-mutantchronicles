@@ -71,7 +71,8 @@
 						"value": 0,
 						"max": 6
 					}
-				}
+				},
+				"critical_injury": ""
 			}
 		},
 		"player": {

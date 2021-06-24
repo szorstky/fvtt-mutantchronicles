@@ -1,5 +1,16 @@
 {
     "mutantchronicles": {
+        "status": "Status",
+        "critical_injury": "Critical Injury",
+        "serious_wounds": "Serious Wounds",
+        "critical_wounds": "Critical Wounds",
+        "mental_wounds": "Mental Wounds",
+        "head": "Head",
+        "torso": "Torso",
+        "left_arm": "Left Arm",
+        "right_arm": "Right Arm",
+        "left_leg": "Left Leg",
+        "right_leg": "Right Leg",
         "short_description": "Short Description",
         "description": "Description",
         "chronicle_points": "Chronicle Points",

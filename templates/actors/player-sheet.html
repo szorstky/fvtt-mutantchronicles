@@ -55,7 +55,22 @@
                     </div>
                     <label>{{localize "mutantchronicles.melee"}}</label>
                 </div>               
-            </div>           
+            </div> 
+            <!-- WOUNDS           -->
+            <div>
+                <div class="wound-box">
+                    <di <p class="wound-box__title">{{localize "mutantchronicles.status"}}</p>
+                    <div class="wound-box__value" data-edit="data.status" contenteditable="">
+                        {{data.status}}
+                    </div>                    
+                </divb>
+                <div class="wound-box">
+                    <di <p class="wound-box__title">{{localize "mutantchronicles.critical_injury"}}</p>
+                    <div class="wound-box__value" data-edit="data.critical_injury" contenteditable="">
+                        {{data.critical_injury}}
+                    </div>                   
+                </divb>
+            </div>
         </div>            
         <div class="sheet-content">
             {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
