@@ -75,15 +75,21 @@
                 <p class="wound-box__title">{{localize "mutantchronicles.head"}} [1-2]</p>
                 <div class="sheet-row">
                     <div class="wound-box__value wound-box__value--soak">
-                        <input name="data.soak.head" type="number" value="{{data.soak.head}}" data-dtype="Number"/>
+                        <div data-edit="data.soak.head" contenteditable="">
+                            {{data.soak.head}}
+                        </div>
                         <label>{{localize "mutantchronicles.soak"}}</p>
                     </div>
                     <div class="wound-box__value">
-                        <input name="data.wounds.light.head.value" type="number" value="{{data.wounds.light.head.value}}" data-dtype="Number"/> 
+                        <div data-edit="data.wounds.light.head.value" contenteditable="">
+                            {{data.wounds.light.head.value}}
+                        </div>
                         <label>{{localize "mutantchronicles.current"}}</p>
                     </div>    
                     <div class="wound-box__value">
-                        <input name="data.wounds.light.head.max" type="number" value="{{data.wounds.light.head.value}}" data-dtype="Number"/>
+                        <div data-edit="data.wounds.light.head.max" contenteditable="">
+                            {{data.wounds.light.head.max}}
+                        </div>
                         <label>{{localize "mutantchronicles.max"}}</p>
                     </div>
                 </div>                                   
