@@ -57,19 +57,33 @@
                 </div>               
             </div> 
             <!-- WOUNDS           -->
-            <div>
+            <div class="sheet-row flex-1">
                 <div class="wound-box">
                     <di <p class="wound-box__title">{{localize "mutantchronicles.status"}}</p>
                     <div class="wound-box__value" data-edit="data.status" contenteditable="">
                         {{data.status}}
                     </div>                    
-                </divb>
-                <div class="wound-box">
+                </div>
+                <div class="wound-box flex-1">
                     <di <p class="wound-box__title">{{localize "mutantchronicles.critical_injury"}}</p>
                     <div class="wound-box__value" data-edit="data.critical_injury" contenteditable="">
                         {{data.critical_injury}}
                     </div>                   
                 </div>
+            </div>
+            <div class="wound-box flex-1">
+                <di <p class="wound-box__title">{{localize "mutantchronicles.head"}} [1-2]</p>
+                <div class="sheet-row">
+                    <div>
+                        <p>{{localize "mutantchronicles.soak"}}</p>
+                        <input name="data.soak.head" type="number" value="{{data.soak.head}}" data-dtype="Number"/>
+                    </div>
+                    <div class="sheet-row">
+                        <input name="data.wounds.light.head.value" type="number" value="{{data.wounds.light.head.value}}" data-dtype="Number"/> 
+                        /
+                        <input name="data.wounds.light.head.max" type="number" value="{{data.wounds.light.head.value}}" data-dtype="Number"/>
+                    </div>
+                </div>                                   
             </div>
         </div>            
         <div class="sheet-content">
