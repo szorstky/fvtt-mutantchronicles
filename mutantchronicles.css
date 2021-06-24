@@ -76,6 +76,9 @@
   font-weight: bold;
   font-size: 1rem;
 }
+.mutantchronicles.sheet.actor.player .wound-box .wound-box__value--soak {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
 .mutantchronicles.sheet.actor.player .wound-box label {
   font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.5);

@@ -1,6 +1,8 @@
 {
     "mutantchronicles": {
         "status": "Status",
+        "current": "Current", 
+        "max": "Max",
         "critical_injury": "Critical Injury",
         "serious_wounds": "Serious Wounds",
         "critical_wounds": "Critical Wounds",
