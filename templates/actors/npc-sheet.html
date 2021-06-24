@@ -3,12 +3,18 @@
         <div class="sheet-row">
             <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90" />
             <div class="full-width">
-                <div class="stat-box flex-2">
+                <div class="stat-box">
                     <p class="stat-box__title">{{localize 'Name'}}</p>
                     <div class="stat-box__value" data-edit="actor.name" contenteditable="">
                         {{actor.name}}
+                    </div>                    
+                </div>    
+                 <div class="stat-box flex-2">
+                    <p class="stat-box__title">{{localize 'description'}}</p>
+                    <div class="stat-box__value" data-edit="data.description" contenteditable="">
+                        {{data.description}}
                     </div>
-                </div>                           
+                </div>                                       
             </div>  
         </div>   
         {{#if owner}}

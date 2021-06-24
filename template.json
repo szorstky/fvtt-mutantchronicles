@@ -274,6 +274,7 @@
 				"mc_character",
 				"common_wounds"
 			],
+			"description": "",
 			"gm_notes": ""
 		},
 		"nemesis": {
