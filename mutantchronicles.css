@@ -59,6 +59,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 .mutantchronicles.sheet.actor.player .wound-box {
+  text-align: center;
   border: 1px solid #7a7971;
   margin: 0.2rem;
 }
@@ -70,6 +71,12 @@
   margin: auto;
   width: 100%;
   padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player .wound-box .wound-box__content {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
 }
 .mutantchronicles.sheet.actor.player .wound-box .wound-box__value {
   padding: 0.1rem 0.3rem;
