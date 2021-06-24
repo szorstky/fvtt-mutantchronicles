@@ -24,6 +24,36 @@
 .mutantchronicles.sheet.actor.player .flex-2 {
   flex: 2;
 }
+.mutantchronicles.sheet.actor.player stat-block--title {
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px #000;
+  border-bottom: 1px solid #000;
+  color: #f0f0e0;
+  padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player stat-block-value {
+  padding: 0.1rem 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.mutantchronicles.sheet.actor.player label {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mutantchronicles.sheet.actor.player stat-block {
+  border: 1px solid #7a7971;
+  margin: 0.2rem;
+}
+.mutantchronicles.sheet.actor.player stat-block .stat-box__header {
+  margin: auto;
+  width: 100%;
+}
+.mutantchronicles.sheet.actor.player stat-block .stat-box__content {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
 .mutantchronicles.sheet.actor.player .sheet-header {
   align-items: flex-start;
 }

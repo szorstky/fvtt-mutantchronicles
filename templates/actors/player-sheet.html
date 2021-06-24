@@ -58,11 +58,13 @@
             </div> 
             <!-- WOUNDS           -->
             <div class="sheet-row">
-                <div class="wound-box flex-1">
-                    <p class="wound-box__title">{{localize "mutantchronicles.status"}}</p>
-                    <div class="wound-box__value" data-edit="data.status" contenteditable="">
-                        {{data.status}}
-                    </div>                    
+                <div class="stat-block flex-1">
+                    <p class="stat-block__title">{{localize "mutantchronicles.status"}}</p>
+                    <div class="stat-block__content">
+                        <div class="stat-block--header" data-edit="data.status" contenteditable="">
+                            {{data.status}}
+                        </div>             
+                    </div>       
                 </div>
                 <div class="wound-box flex-1">
                     <p class="wound-box__title">{{localize "mutantchronicles.critical_injury"}}</p>
