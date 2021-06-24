@@ -56,43 +56,6 @@
                     <label>{{localize "mutantchronicles.melee"}}</label>
                 </div>               
             </div>           
-        </div>    
-        <div class="sheet-content flex-1">
-            {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
-            <table>
-                <thead>
-                    <tr>
-                        <td>{{ localize 'mutantchronicles.chronicle_points' }}</td>
-                        <td>{{ localize 'mutantchronicles.ranged' }}</td>
-                        <td>{{ localize 'mutantchronicles.melee' }}</td>
-                        <td>{{ localize 'mutantchronicles.dread' }}</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div data-edit="data.chronicle_points" contenteditable="">
-                                {{data.chronicle_points}}
-                            </div>
-                        </td>
-                        <td>
-                            <div data-edit="data.damage_bonus.ranged" contenteditable="">
-                                {{data.damage_bonus.ranged}}
-                            </div>
-                        </td>
-                        <td>
-                            <div data-edit="data.damage_bonus.melee" contenteditable="">
-                                {{data.damage_bonus.melee}}
-                            </div>
-                        </td>
-                        <td>
-                            <div data-edit="data.dread.value" contenteditable="">
-                                {{data.dread.value}}
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        </div>            
     </div>    
 </form>

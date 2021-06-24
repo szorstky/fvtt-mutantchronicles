@@ -17,6 +17,14 @@
 					"personality": 5,
 					"physique": 5,
 					"strength": 5
+				},
+				"soak": {
+					"head": 0,
+					"torso": 0,
+					"arm_left": 0,
+					"arm_right": 0,
+					"leg_left": 0,
+					"leg_right": 0
 				}
 			},
 			"common_wounds": {
@@ -27,32 +35,26 @@
 					},
 					"light": {
 						"head": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						},
 						"torso": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						},
 						"arm_left": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						},
 						"arm_right": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						},
 						"leg_left": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						},
 						"leg_right": {
-							"soak": 0,
 							"value": 0,
 							"max": 0
 						}
@@ -71,7 +73,8 @@
 		"player": {
 			"templates": [
 				"mc_character",
-				"common_wounds"
+				"common_wounds", 
+				"soak"
 			],
 			"faction": "",
 			"experience": "",
@@ -280,16 +283,49 @@
 		},
 		"enemy": {
 			"templates": [
-				"mc_character"
-			]
+				"mc_character",
+				"soak"
+			],
+			"field_of_expertise": {
+				"combat": {
+					"expertise": 0,
+					"focus": 0
+				},
+				"fortitude": {
+					"expertise": 0,
+					"focus": 0
+				},
+				"movement": {
+					"expertise": 0,
+					"focus": 0
+				},
+				"senses": {
+					"expertise": 0,
+					"focus": 0
+				},
+				"social": {
+					"expertise": 0,
+					"focus": 0
+				},
+				"technical": {
+					"expertise": 0,
+					"focus": 0
+				}
+			},
+			"wounds": {
+				"value": 0,
+				"max": 0
+			},
+			"dark_symetry_spends": []
 		}
 	},
 	"Item": {
 		"types": [
 			"item",
 			"weapon",
-			"skill",
-			"talent"
+			"talent",
+			"special_rule",
+			"attack"
 		],
 		"templates": {
 			"basic": {
@@ -320,6 +356,6 @@
 			"size": "-",
 			"reloads": 0,
 			"qualities": ""
-		}		
+		}
 	}
 }

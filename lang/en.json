@@ -12,6 +12,17 @@
         "signature": "Signature",
         "expertise": "Expertise",
         "focus": "Focus",
+        "field_of_expertise": "Field of Expertise",
+        "combat": "Combat",
+        "fortitude": "Fortitude",
+        "movement": "Movement",
+        "senses": "Senses",
+        "social": "Social",
+        "technical": "Technical",
+        "soak": "Soak",
+        "attacks": "Attacks",
+        "special_rules": "Special Rules",
+        "dark_symetry_spends": "Dark Symetry Spends",
         "acrobatics": "Acrobatics",
         "close_combat": "Close Combat",
         "unarmed_combat": "Unarmed Combat",
@@ -44,6 +55,7 @@
         "player": {
             "faction": "Faction"
         },
+
         "agility": "Agility",
         "awerness": "Awerness",
         "coordination": "Coordination",
