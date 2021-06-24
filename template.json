@@ -273,7 +273,8 @@
 			"templates": [
 				"mc_character",
 				"common_wounds"
-			]
+			],
+			"gm_notes": ""
 		},
 		"nemesis": {
 			"templates": [
