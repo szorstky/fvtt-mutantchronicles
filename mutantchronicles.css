@@ -30,6 +30,7 @@
 .mutantchronicles.sheet.actor.player .sheet-header img {
   flex: 0 0 90px;
   height: 90px;
+  margin-top: 4px;
 }
 .mutantchronicles.sheet.actor.player .sheet-row {
   display: flex;
@@ -49,10 +50,33 @@
   padding: 0.1rem 0.3rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box .stat-box__value {
+  padding: 0.1rem 0.3rem;
   font-weight: bold;
   font-size: 1rem;
 }
 .mutantchronicles.sheet.actor.player .stat-box label {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mutantchronicles.sheet.actor.player .wound-box {
+  border: 1px solid #7a7971;
+  margin: 0.2rem;
+}
+.mutantchronicles.sheet.actor.player .wound-box .wound-box__title {
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px #000;
+  border-bottom: 1px solid #000;
+  color: #f0f0e0;
+  margin: auto;
+  width: 100%;
+  padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player .wound-box .wound-box__value {
+  padding: 0.1rem 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.mutantchronicles.sheet.actor.player .wound-box label {
   font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.5);
 }
