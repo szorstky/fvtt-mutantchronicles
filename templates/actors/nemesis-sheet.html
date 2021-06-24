@@ -1,0 +1,18 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <div class="sheet-content full-width">
+        <div class="sheet-row sheet-header">
+            <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90" />
+            <div class="full-width">
+                <div class="stat-box">
+                    <p class="stat-box__title">{{localize 'Name'}}</p>
+                    <div class="stat-box__value" data-edit="actor.name" contenteditable="">
+                        {{actor.name}}
+                    </div>                    
+                </div>                                                     
+            </div>  
+        </div>   
+        {{#if owner}}
+        {{ editor content=data.gm_notes target="data.gm_notes" button=true owner=owner editable=editable}}         
+        {{/if}}    
+    </div>
+</form>
