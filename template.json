@@ -274,6 +274,7 @@
 				"mc_character",
 				"common_wounds"
 			],
+			"short_description": "",
 			"description": "",
 			"gm_notes": ""
 		},

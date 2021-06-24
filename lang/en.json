@@ -1,5 +1,6 @@
 {
     "mutantchronicles": {
+        "short_description": "Short Description",
         "description": "Description",
         "chronicle_points": "Chronicle Points",
         "damage_bonus": "Damage Bonus",
