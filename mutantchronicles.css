@@ -28,7 +28,7 @@
   border: 1px solid #7a7971;
   margin: 0.2rem;
 }
-.mutantchronicles.sheet.actor.player .stat-block .stat-box__header {
+.mutantchronicles.sheet.actor.player .stat-block .stat-block__header {
   margin: auto;
   width: 100%;
 }
