@@ -1,3 +1,13 @@
+.full-width {
+  width: 100%;
+}
+.mc-flex-1 {
+  flex: 1;
+  background-color: pink;
+}
+.mc-flex-2 {
+  flex: 2;
+}
 .mutantchronicles.sheet.item .sheet form {
   display: flex;
   flex-direction: column;
@@ -14,15 +24,6 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-}
-.mutantchronicles.sheet.actor.player .full-width {
-  width: 100%;
-}
-.mutantchronicles.sheet.actor.player .flex-1 {
-  flex: 1;
-}
-.mutantchronicles.sheet.actor.player .flex-2 {
-  flex: 2;
 }
 .mutantchronicles.sheet.actor.player .stat-block {
   border: 1px solid #7a7971;
