@@ -8,19 +8,15 @@
     }
 
     .trapezoid {
-        width: 230px;
-        text-align: center;
-        height: 0; 
-        position: relative;
-        border-right: 40px solid transparent;
-        border-top: 50px solid #2963BD;        
-        box-sizing: content-box; 
-        }
+        width: 200px;
+        min-height: 200px;
+        -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+        background: lightblue;
+    }
  
     .trapezoid span { 
-        position: absolute;
-        top: -30px;
-        left: 25%;
+        
         color: #fff;
     }
 
