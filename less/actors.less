@@ -13,26 +13,22 @@
         align-content: center;
         border-bottom: 1px solid #7a7971;
         .stat-field__label {
+            display: flex;
             color: #f0f0e0; 
             background: rgba(0, 0, 0, 0.5);
+            padding: .1rem 2rem .1rem .3rem;
             text-shadow: 1px 1px #000;
             -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
             clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
-            padding: .1rem .3rem;
+            p {
+                display: flex;
+                margin: auto;
+            }
         }
-    }
-
-    .trapezoid {
-        width: 60px;
-        min-height: 60px;
-        -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
-        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
-        background: @colorBeige;
-    }
- 
-    .trapezoid span { 
-        
-        color: #fff;
+        input {
+            background-color: transparent;
+            border: none;            
+        }
     }
 
      .sheet-header {
