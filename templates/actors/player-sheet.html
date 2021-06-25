@@ -1,12 +1,15 @@
 <form class="{{cssClass}}" autocomplete="off">
-    <div class="trapezoid"><span>Trapezoid Button</span></div>
+        <div class="stat-field flexrow">
+                <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</label>
+                <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
+            </div>
     <header class="sheet-header flexrow">
         <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
         <section class="header-details flexrow">
             <div class="stat-field flexrow">
                 <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</label>
                 <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-            </h1>
+            </div>
 
             <aside class="header-exp flexcol">
                 <label>{{ localize "mutantchronicles.experience" }}</label>
