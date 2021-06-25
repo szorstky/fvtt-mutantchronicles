@@ -134,7 +134,7 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .mutantchronicles.sheet.actor.player .stat-field div {
@@ -149,6 +149,7 @@
 .mutantchronicles.sheet.actor.player .stat-field input {
   background-color: transparent;
   border: none;
+  height: 22px;
 }
 .mutantchronicles.sheet.actor.player .sheet-header img.profile {
   flex: 0 0 160px;
