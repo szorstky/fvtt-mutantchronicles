@@ -2,7 +2,7 @@
     <header class="sheet-header flexrow">
         <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
         <section class="header-details flexrow">
-            <div class="flexcol">
+            <div class="flexrow">
                 <div class="stat-field">
                     <div class="sheet-label">
                         <p>{{ localize "Name" }}</p>
@@ -13,16 +13,22 @@
                     <div class="sheet-label">
                         <p>{{ localize "mutantchronicles.player.faction" }}</p>
                     </div>
-                    <input class="full-width" name="name" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
+                    <input class="full-width" name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
                 </div>    
             </div>            
             <aside class="header-exp flexcol">
                 <div class="stat-field">
                     <div class="sheet-label">
-                        <p>{{ localize "mutantchronicles.player.experience" }}</p>
+                        <p>{{ localize "mutantchronicles.experience" }}</p>
                     </div>
-                    <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-                </div>            
+                    <input class="full-width" name="data.experience" type="number" value="{{data.experience}}" data-dtype="Number"/>
+                </div>         
+                <div class="stat-field">
+                    <div class="sheet-label">
+                        <p>{{ localize "mutantchronicles.chronicle_points" }}</p>
+                    </div>
+                    <input class="full-width" name="data.experience" type="number" value="{{data.chronicle_points}}" data-dtype="Number"/>
+                </div>         
             </aside>
         </section>        
     </header>
