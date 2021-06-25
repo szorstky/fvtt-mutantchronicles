@@ -1,13 +1,9 @@
-<form class="{{cssClass}}" autocomplete="off">
-        <div class="stat-field flexrow">
-                <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</label>
-                <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-            </div>
+<form class="{{cssClass}}" autocomplete="off">        
     <header class="sheet-header flexrow">
         <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
-        <section class="header-details flexrow">
-            <div class="stat-field flexrow">
-                <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</label>
+        <section class="header-details">
+            <div class="stat-field">
+                <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</div>
                 <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
             </div>
 
