@@ -1,12 +1,24 @@
 .full-width {
   width: 100%;
 }
+.mc-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mc-row {
+  display: flex;
+  flex-direction: row;
+}
 .mc-flex-1 {
   flex: 1;
   background-color: pink;
 }
 .mc-flex-2 {
   flex: 2;
+}
+.mc-align-center {
+  align-content: center;
 }
 .mutantchronicles.sheet.item .sheet form {
   display: flex;
@@ -25,6 +37,18 @@
   flex-direction: column;
   align-content: flex-start;
 }
+.mutantchronicles.sheet.actor.player .stat-bar {
+  margin: 0.2rem;
+  padding: 0.1rem 0.3rem;
+}
+.mutantchronicles.sheet.actor.player .stat-bar .title {
+  color: #f0f0e0;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px #000;
+}
+.mutantchronicles.sheet.actor.player .stat-bar--dark {
+  border: 1px solid #7a7971;
+}
 .mutantchronicles.sheet.actor.player .stat-block {
   border: 1px solid #7a7971;
   margin: 0.2rem;
@@ -39,7 +63,7 @@
   align-content: center;
   justify-content: space-evenly;
 }
-.mutantchronicles.sheet.actor.player .stat-block .stat-block--title {
+mutantchronicles.sheet.actor.player .stat-block .stat-block--title {
   background: rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px #000;
   border-bottom: 1px solid #000;
@@ -158,7 +182,6 @@
 }
 .mutantchronicles.sheet.actor.player .sheet-content .skills__table {
   font-size: 0.7rem;
-  border-top: none;
   border: 1px solid #7a7971;
   margin: 0 0.2rem 0.2rem 0.2rem;
 }

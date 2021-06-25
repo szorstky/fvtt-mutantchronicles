@@ -82,7 +82,10 @@
 				"soak"
 			],
 			"faction": "",
-			"experience": "",
+			"experience": {
+				"value": 0,
+				"total": 0
+			},
 			"social_status": "",
 			"influence": "",
 			"earnings": "",

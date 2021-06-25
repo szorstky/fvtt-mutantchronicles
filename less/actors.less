@@ -4,8 +4,54 @@
         flex-direction: column;
         align-content: flex-start;
     }
-   
 
+     .sheet-header {
+        // Portrait Artwork
+        img.profile {
+            flex: 0 0 160px;
+            max-width: 160px;
+            height: 160px;
+        }
+
+        // Character Name
+        h1.charname {
+            flex: 1;
+            height: @actorNameHeight;
+            padding: 0;
+            input {
+                height: @actorNameHeight - 20px;
+                margin: 10px 0;
+            }
+        }
+
+        .header-exp {
+            flex: 0 0 150px;
+            margin-right: 3px;
+            height: @actorNameHeight;
+            justify-content: flex-end;
+            text-align: right;
+        }
+    }
+
+    .title {
+        color: #f0f0e0; 
+        text-shadow: 1px 1px #000;    
+    }
+
+    .stat-bar {
+        margin: .2rem;        
+        padding: .1rem .3rem;
+        .title {
+            color: #f0f0e0; 
+            background: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px #000;            
+        }                           
+    }
+
+    .stat-bar--dark {
+        border: 1px solid #7a7971; 
+    }
+   
     .stat-block {
         border: 1px solid #7a7971;            
         margin: .2rem;   
@@ -159,8 +205,6 @@
         
         .skills__table {
             font-size: .7rem;
-            border-top: none;
-            // border-bottom: none;
             border: 1px solid #7a7971; 
             margin: 0 .2rem .2rem .2rem;
             th, td {

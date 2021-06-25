@@ -1,4 +1,24 @@
 <form class="{{cssClass}}" autocomplete="off">
+
+    <header class="sheet-header flexrow">
+        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
+        <section class="header-details flexrow">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
+            </h1>
+
+            <aside class="header-exp flexcol">
+                <label>{{ localize "mutantchronicles.experience" }}</label>
+                <div class="experience flexrow">
+                    <input name="data.details.xp.value" type="text" value="{{data.details.xp.value}}" placeholder="0" data-dtype="Number"/>
+                    <span class="sep">/</span>
+                    <span class="max">{{data.details.xp.max}}</span>
+                </div>                
+            </aside>
+        </section>        
+    </header>
+
+
     <div class="sheet-row">
         <div class="sheet-content full-width">
             <div class="sheet-row sheet-header">
