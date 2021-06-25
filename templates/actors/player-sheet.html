@@ -3,8 +3,9 @@
     <header class="sheet-header flexrow">
         <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
         <section class="header-details flexrow">
-            <h1 class="charname">
-                <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
+            <div class="stat-field flexrow">
+                <div class="stat-field__label">{{ localize "mutantchronicles.experience" }}</label>
+                <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
             </h1>
 
             <aside class="header-exp flexcol">
