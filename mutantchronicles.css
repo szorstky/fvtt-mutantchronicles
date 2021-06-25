@@ -123,25 +123,28 @@
   flex-direction: column;
   align-content: flex-start;
 }
+.mutantchronicles.sheet.actor.player .sheet-label {
+  color: #f0f0e0;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px #867f7f;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+}
 .mutantchronicles.sheet.actor.player .stat-field {
   display: flex;
   flex-direction: row;
   align-content: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   margin-bottom: 0.2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-.mutantchronicles.sheet.actor.player .stat-field .stat-field__label {
+.mutantchronicles.sheet.actor.player .stat-field div {
   display: flex;
-  color: #f0f0e0;
-  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 80px;
   padding: 0.1rem 2rem 0.1rem 0.3rem;
-  text-shadow: 1px 1px #000;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
 }
-.mutantchronicles.sheet.actor.player .stat-field .stat-field__label p {
+.mutantchronicles.sheet.actor.player .stat-field div p {
   display: flex;
-  margin: auto;
+  margin: auto 0;
 }
 .mutantchronicles.sheet.actor.player .stat-field input {
   background-color: transparent;
