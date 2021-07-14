@@ -1,66 +1,51 @@
-<form class="{{cssClass}}" autocomplete="off">        
-    <header class="sheet-header flexrow">
-        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90"/>          
-        <section class="header-details flexcol">
-            <div class="flexrow">
-                <div class="stat-field">
-                    <div class="sheet-label">
-                        <p>{{ localize "Name" }}</p>
-                    </div>
-                    <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-                </div>                
-            </div>            
-            <div class="flexrow">
-                <div class="stat-field">
-                    <div class="sheet-label">
-                        <p>{{ localize "mutantchronicles.player.faction" }}</p>
-                    </div>
-                    <input class="full-width" name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
-                </div>    
-                <div class="stat-field">
-                    <div class="sheet-label">
-                        <p>{{ localize "mutantchronicles.experience" }}</p>
-                    </div>
-                    <input class="full-width" name="data.experience" type="number" value="{{data.experience}}" data-dtype="Number"/>
-                </div>         
-                <div class="stat-field">
-                    <div class="sheet-label">
-                        <p>{{ localize "mutantchronicles.chronicle_points" }}</p>
-                    </div>
-                    <input class="full-width" name="data.experience" type="number" value="{{data.chronicle_points}}" data-dtype="Number"/>
-                </div>         
-            </aside>
-        </section>        
-    </header>
+<form class="{{cssClass}}" autocomplete="off">   
+    <div class="flexrow">
+        <div class="flexcol">
+            <header class="sheet-header flexrow">
+                <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90"/>          
+                <section class="header-details flexcol">
+                    <div class="flexrow">
+                        <div class="stat-field">
+                            <div class="sheet-label">
+                                <p>{{ localize "Name" }}</p>
+                            </div>
+                            <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
+                        </div>                
+                    </div>            
+                    <div class="flexrow">
+                        <div class="stat-field">
+                            <div class="sheet-label">
+                                <p>{{ localize "mutantchronicles.player.faction" }}</p>
+                            </div>
+                            <input class="full-width" name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
+                        </div>    
+                        <div class="stat-field">
+                            <div class="sheet-label">
+                                <p>{{ localize "mutantchronicles.experience" }}</p>
+                            </div>
+                            <input class="full-width" name="data.experience" type="number" value="{{data.experience}}" data-dtype="Number"/>
+                        </div>         
+                        <div class="stat-field">
+                            <div class="sheet-label">
+                                <p>{{ localize "mutantchronicles.chronicle_points" }}</p>
+                            </div>
+                            <input class="full-width" name="data.experience" type="number" value="{{data.chronicle_points}}" data-dtype="Number"/>
+                        </div>         
+                    </aside>
+                </section>        
+            </header>
+        </div>
+        <div class="flexcol">
+             <div class="sheet-content">
+                {{> "systems/mutantchronicles/templates/actors/partials/player-attributes-and-skills-partial.hbs"}}
+            </div>
+        </div>
+    </div>     
+    
 
 
     <div class="sheet-row">
-        <div class="sheet-content full-width">
-            <div class="sheet-row sheet-header">
-                <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90" />
-                <div class="full-width">
-                    <div class="stat-box mc-flex-2">
-                        <p class="stat-box__title">{{localize 'Name'}} test 2</p>
-                        <div class="stat-box__value" data-edit="actor.name" contenteditable="">
-                            {{actor.name}}
-                        </div>
-                    </div>
-                    <div class="sheet-row">
-                        <div class="stat-box full-width">
-                            <p class="stat-box__title">{{localize "mutantchronicles.player.faction"}}</p>
-                            <div class="stat-box__value" data-edit="data.faction" contenteditable="">
-                                {{data.faction}}
-                            </div>
-                        </div>                        
-                        <div class="stat-box stat-box--center">
-                            <p class="stat-box__title">{{localize "mutantchronicles.experience"}}</p>
-                            <div class="stat-box__value" data-edit="data.experience" contenteditable="">
-                                {{data.experience}}
-                            </div>
-                        </div>      
-                    </div>                        
-                </div>  
-            </div>   
+        <div class="sheet-content full-width">            
             <div class="sheet-row">       
                 <div class="stat-box stat-box--center mc-flex-1">
                     <p class="stat-box__title">{{localize "mutantchronicles.chronicle_points"}}</p>
