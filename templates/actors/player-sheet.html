@@ -1,6 +1,6 @@
 <form class="{{cssClass}}" autocomplete="off">        
     <header class="sheet-header flexrow">
-        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />          
+        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="90" width="90"/>          
         <section class="header-details flexcol">
             <div class="flexrow">
                 <div class="stat-field">
@@ -8,15 +8,15 @@
                         <p>{{ localize "Name" }}</p>
                     </div>
                     <input class="full-width" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}"/>
-                </div>
+                </div>                
+            </div>            
+            <div class="header-exp flexrow">
                 <div class="stat-field">
                     <div class="sheet-label">
                         <p>{{ localize "mutantchronicles.player.faction" }}</p>
                     </div>
                     <input class="full-width" name="data.faction" type="text" value="{{data.faction}}" placeholder="{{ localize 'mutantchronicles.player.faction' }}"/>
                 </div>    
-            </div>            
-            <div class="header-exp flexrow">
                 <div class="stat-field">
                     <div class="sheet-label">
                         <p>{{ localize "mutantchronicles.experience" }}</p>
