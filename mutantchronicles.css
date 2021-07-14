@@ -130,6 +130,9 @@
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
 }
+.mutantchronicles.sheet.actor.player .sheet-label p {
+  white-space: nowrap;
+}
 .mutantchronicles.sheet.actor.player .stat-field {
   display: flex;
   flex-direction: row;
